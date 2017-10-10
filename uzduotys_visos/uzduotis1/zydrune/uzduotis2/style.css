@@ -1,0 +1,48 @@
+body {
+  margin: auto;
+  padding: 0;
+  width: 80%;
+
+}
+
+.nav {
+  color: red;
+}
+
+.nav li {
+  background-color: yellow;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 5px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.youtube {
+  display: block;
+}
+.form-style{
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style textarea {
+  font-size: 1em;
+  display: block;
+  width: 20%;
+  max-width: 500px;
+}
+
+.map {
+  padding-top: 10%;
+}
