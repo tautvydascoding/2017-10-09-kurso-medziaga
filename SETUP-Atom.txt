@@ -7,7 +7,7 @@ linter-csslint
 linter-jshint 
 
  
-
+beautify
 autoclose-html
 atom-autocomplete-php
 color-picker
