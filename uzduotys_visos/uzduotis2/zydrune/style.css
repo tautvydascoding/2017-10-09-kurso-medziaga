@@ -11,26 +11,25 @@ h1 {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
 
 .item {
-  border: 1px solid #4B6060;
-  width: 30%;
-  position: relative;
   background-color: azure;
+  border: 1px solid #4B6060;
+  position: relative;
+  width: 30%;
 }
 
 h2 {
-  width: 150px;
   margin: 0 0 10px 5px;
   padding-top: 3px;
   position: absolute;
   top: 0;
   right: 0;
   text-align: center;
+  width: 100px;
 }
 
 p {
@@ -54,26 +53,25 @@ p {
 @media only screen and (max-width: 900px)  {
   p {
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .item {
-    width: 45%;
-    margin: auto;
+    min-width: 50%;
   }
-  .item3 {
-    width: 95%; /*kodel 95?*/
-    margin-top: 5%;
+
+  h1 {
+    color: red;
   }
 }
 
 @media only screen and (max-width: 600px)  {
   .item {
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     margin-top: 5%;
   }
   .container {
     flex-direction: column;
-    border: 1px solid vlack;
+    border: 1px solid red;
   }
 }
