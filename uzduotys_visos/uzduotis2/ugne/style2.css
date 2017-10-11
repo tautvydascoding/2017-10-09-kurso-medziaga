@@ -1,0 +1,45 @@
+h2 {
+    color: red;
+}
+
+#antraste {
+    background-color: #81ba81;
+}
+
+.trtext {
+    color: orange;
+}
+
+section p {
+    color: #474dbc;
+}
+
+p {
+    color:dodgerblue;
+}
+
+h3:nth-child(2n) {
+    color:blue;
+}
+
+h3:last-of-type {
+    border-bottom: solid 5px #000000;
+}
+
+h3:hover {
+    background-color: darksalmon;
+    color: darkslategrey;
+}
+
+div h3 {
+    text-decoration: underline;
+}
+
+/* 1 + 10 + 1 = 12*/
+div.special h2 {}
+
+/* 1 + 10 = 11*/
+div.special {}
+
+/* 10 */
+.special {}
