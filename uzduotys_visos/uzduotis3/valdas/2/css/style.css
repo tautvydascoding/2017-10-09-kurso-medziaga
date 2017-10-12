@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: #ddd;
+  margin:0;
+}
+
+body {
+    max-width: 1100px;
+    margin:auto;
+    flex-flow:  
+}
+
+
+h2 {
+    text-align: center;
+    text-shadow: #bbb 3px 3px 6px;
+}
+
+header {
+  width:100%;
+  margin-bottom: 10px;
+}
+
+nav {
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+
+#header-block {
+  background-color: rgb(51, 182, 135);
+  height:50px;
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  display: inline-block;
+  width:24%;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header ul {
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+nav {
+  width:66%;
+  height:100%;
+}
+
+main {
+    overflow:hidden
+}
+
+#search {
+  width:34%;
+}
+
+input {
+  width:80%;
+  height:16px;
+  border:none;
+}
+
+button {
+  border-radius:0;
+  border:none;
+  background-color:#000;
+  color:#fff;
+  padding:2px 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+section {
+  background-color:#fff;
+  height:auto;
+  width: calc(80% - 10px);
+  margin-right: 10px;
+  padding:15px 15px;
+}
+
+aside {
+  background-color: rgb(51, 182, 135);
+  height:100%;
+  width:20%;
+  /*auto aukscio isskaiciavimas (ant tevo overflow:hidden)*/
+  padding-bottom: 100%;
+  margin-bottom:-100%;
+
+}
+
+aside ul {
+
+}
+
+.clear-float {
+    clear:both;
+}
+
+footer {
+    background-color: #fff;
+    min-height:80px;
+    margin-top:10px;
+    padding:0 10px;
+}
+
+footer p {
+    line-height: 80px;
+    margin:0;
+    padding:0;
+}
