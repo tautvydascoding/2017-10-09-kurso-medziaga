@@ -1,0 +1,114 @@
+/*remeliu skaiciavimas i elemento didi*/
+* {
+  box-sizing: border-box;
+}
+
+/*=====================================*/
+body {
+  max-width: 1100px;
+  width: 100%;
+  /*=====centravimas(butina nurodyti ploti)======*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  background-color: rgb(55, 187, 215);
+}
+
+nav {
+  width: 66%;
+}
+
+h1 {
+  color: red;
+  text-shadow: #000 0px 0px 25px;
+  font-family: 'Modak', cursive;
+}
+
+h2 {
+    text-align: center;
+}
+
+header li {
+  display: inline-block;
+  width: 24.5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+
+}
+
+aside ul {
+    padding-left: 30px;
+}
+
+input {
+  width: 80%
+}
+
+button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 2px 20px;
+}
+
+section {
+  background-color: #fff;
+  min-height: 300px;
+  width: 78%;
+  float: left;
+  margin-right: 2%;
+  padding: 25px 15px;
+  height: 100%;
+  }
+
+aside {
+  background-color: rgb(251, 251, 119);
+  min-height: 300px;
+  width: 20%;
+  float: left;
+  /*automatinis aukscio isskaiciavimas (reikia ant tevo uzdeti overflow hidden)*/
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+  }
+
+  footer {
+      background-color: #fff;
+      min-height: 80px;
+  }
+
+  main {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      min-height: 300px;
+      overflow: hidden;
+  }
+
+.clear-float {
+    clear: both;
+}
+
+#header-block {
+  background-color: rgb(251, 251, 119);
+  height: 52px;
+}
+
+#search {
+  width: 34%;
+  padding-top: 15px;
+}
+
+
+.float-left {
+  float: left;
+}
+
+footer p {
+    line-height: 80px;
+    vertical-align: middle;
+}
