@@ -15,34 +15,90 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+home-page button {
+
+}
+ul :first-child {
+    color: red;
+}
 h1 {
     color: red;
+    text-shadow: #000 0px 0px 25px;
+    font-family: 'Modak', cursive;
+}
+h2 {
+    text-align: center;
 }
 #header-block {
     background-color: #FF80FF;
-    height: 80px;
+    height: 52px;
 }
 nav {
     width: 66%;
-    border: solid 1px #000;
 }
-li {
+header  li {
     display: inline-block;
     width: 24.5%;
+    text-transform: uppercase;
+    text-align: center;
 }
 ul {
     padding: 0;
 }
+
+aside ul {
+    padding-left: 30px;
+}
 #search {
     width: 34%;
-    border: solid 1px #000;
+    padding-top: 15px;
+
 }
 .floal-left {
     float: left;
 }
-
-
-
+input {
+    width: 80%;
+}
+button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 20px;
+}
+section {
+    background-color: #fff;
+    height: 100%;
+    width: 78%;
+    float: left;
+    margin-right: 2%;
+    padding: 25px 15px;
+}
+aside {
+    background-color: pink;
+     /* automatinis aukscio iskaiciavimas (ant tecio reik uzdeti: overflow:hidden) */
+     padding-bottom: 100%;
+     margin-bottom: -100%;
+    /* float */
+    width: 20%;
+    float: left;
+}
+footer {
+    background-color: #fff;
+    min-height: 80px;
+    height: auto;
+}
+.crear-float {
+    clear: both;
+}
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+footer p {
+    line-height: 80px;
+}
 
 
 /**/
