@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333333;
+    text-shadow: #000 0px 0px 2px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    font-size: 46px;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+footer p {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*-----------HEADER-------------*/
+#top-bar {
+    background-color: #333333;
+    color: #E0E0E0;
+    height: 60px;
+}
+
+/*elementai vienoj eilutej, naudoti display komanda, inline-block arba block, flex - daug lygiavimu, centravimu, etc.; none - neatvaizduoja isvis*/
+header li {
+/*jei reiktu paimti tik tiesiogini vaika, reiktu rasyt "header > li"*/
+    display: inline-block;
+    width: 24%; /*tevo <nav> plocio*/
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    width: 66%; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#search {
+    width: 34%;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+}
+
+button {
+    border: none;
+    background-color: #E0E0E0;
+    color: #333333;
+    text-align: center;
+    width: 19.5%;
+    height: 21px;
+    padding: 0;
+    padding-left: 10px;
+}
+/*-----------END--HEADER---------*/
+/*-------------MAIN--------------*/
+
+/*deti ant html, ne ant body, nes po to siaurinsim puslapi*/
+html {
+    background-color: #D4E0D6;
+}
+body {
+    max-width: 1100px;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+/*important: centravimas. reikia plocio-mazesnio nei tevo, margin left ir right*/
+
+
+.float-left {
+    float:left;
+}
+
+/*reikia nuimti padding nuo ul elemento*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+section {
+    background-color: whitesmoke;
+    min-height: 300px;
+    height: 100%;
+    width: 68%;
+    margin-right: 20px;
+    padding: 25px 15px;
+
+}
+
+/*dinaminis side bar, kuris keistu dydi pagal main section -galima su flex, arba padding ir margin*/
+aside {
+    background-color: #333333;
+/*automatinis/dinaminis aukscio isskaiciavimas bet neveiks jei ant tevo neuzdesim overflow:hidden*/
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    width: 30%;
+    color: #E0E0E0;
+}
+
+aside li {
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+/*jei yra problema su float, reikia clear fix/float*/
+.clear-float {
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+
+/*--------END-MAIN---------*/
+/*---------FOOTER----------*/
+
+footer {
+    background-color: whitesmoke;
+    min-height: 10px;
+    height: 30px;
+}
