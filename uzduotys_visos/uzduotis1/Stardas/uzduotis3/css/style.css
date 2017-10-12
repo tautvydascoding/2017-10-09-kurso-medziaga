@@ -1,0 +1,16 @@
+* {
+  /*remeliai iskaiciuojami i elemento dydi ir ploti*/
+  box-sizing: border-box;
+}
+/*normalus kodas prasideda*/
+h1 {
+  color: red;
+}
+article {
+  background-color:rgb(173, 173, 173);
+  border: solid 1px #000;
+  /*sudedame elementus i viena eilute*/
+  width: 30.66%;
+  float: left;
+  margin-left: 2%;
+}
