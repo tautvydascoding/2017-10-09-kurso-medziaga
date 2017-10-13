@@ -76,8 +76,47 @@ article {
     top: 0px;
     right: 0px;
 }
+@media (min-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
 
+/* ---------------tablet ----------------*/
+@media (max-width: 767px) {
+    article {
+        width: 47%;
+    }
+    .last-article {
+        width: 96%;
+        margin-top: 3%;
+    }
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/* End media tablet */
+/* ---------------------------------------*/
+@media (max-width: 425px) {
+    article {
+        width: 96%;
+        margin-bottom: 3%;
+    }
+    .last-article {
+        margin-top: 0;
+    }
 
+}
+@media print {
+    * {
+        background-color: #fff;
+        color: #000;
+    }
+    img {
+        visibility: hidden;
+    }
+}
 
 
 /**/
