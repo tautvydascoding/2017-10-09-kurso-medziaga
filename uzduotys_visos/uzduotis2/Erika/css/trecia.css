@@ -1,0 +1,107 @@
+* {
+  /*remeliai iskaiciuojami i lenteles dydi/ploti zvaigzdute naudojama jeigu tinka visiems elementams*/
+  box-sizing: border-box;
+}
+h1, h2 {
+  font-family: verdana, sans-serif;
+}
+h1 {
+  color: red;
+  text-align: center;
+  /*kad zodzius rasytu is didziosios */
+  text-transform: capitalize;
+  /*kad isiskirtu pats tekstas*/
+  font-size: 64px;
+}
+h2 {
+  /*kad butu susiglaude su borderiu*/
+  margin: 0;
+}
+article {
+  background-color: rgb(184, 178, 182);
+   border: 2px solid #000;
+      /*nusako eiti paveiksleliams i viena eilute privalo buti ir plotis +width, nes width butu per didelis tai neisidelios eiluteje nes netilps*/
+   float: left;
+   width: 30%;
+   /*jei butu tiesiog margin: 2% tai tarpe viduriniu paveiksliuku susidetu 2+2=4% margin-left atstumia viena nuo kito i kaire*/
+   margin-left: 2%;
+   /*padarem pozicijos teva*/
+   position: relative;
+   /*nustumem teksta nuo borderio virsaus ir kaires puses*/
+  /* padding-top: 30px;
+   padding-left: 15px;
+   padding-right: 15px;*/
+   padding: 30px 15px 0px 15px;
+
+}
+.first-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(193, 56, 126);
+  text-align: center;
+  width: 120px;
+    /*skraidymas padarem kad tevas butu ne visas ekranas, o article (position: relative)*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.second-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(88, 21, 35);
+  text-align: center;
+  width: 120px;
+    /*skraidymas padarem kad tevas butu ne visas ekranas, o article (position: relative)*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.last-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(49, 26, 150);
+  text-align: center;
+  width: 120px;
+    /*skraidymas padarem kad tevas butu ne visas ekranas, o article (position: relative)*/
+/*position eina su top, right*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/*---------TABLET---------*/
+@media (max-width: 767px) {
+article {
+  width: 47%;
+}
+.last-article {
+  width: 96%;
+  margin-top: 2%;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+/*End media table*/
+/*--------------------------------*/
+@media (max-width: 425px) {
+article {
+  width: 96%;
+  margin-bottom: 2%;
+}
+.last-article {
+  margin-top: 0;
+}
+}
+/*KAD KAI PRINTINTU NESPAUSDINTU PAV*/
+@media print {
+* {
+  background-color: #fff;
+  color: #000;
+}
+/*KAD KUR BUVO FOTO LIKTU TUSTI BLOKAI*/
+img {
+  visibility: hidden;
+}
+}
