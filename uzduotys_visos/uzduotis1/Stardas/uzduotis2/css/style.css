@@ -1,0 +1,30 @@
+h2 {
+  color: red;
+}
+#antraste {
+  background-color: rgb(176, 223, 17);
+}
+.text-orange {
+  color: orange;
+}
+.antraste-melyna {
+  color:blue;
+}
+section p {
+  color: rgb(241, 17, 116);
+}
+h3:nth-child(2n -1) {
+  color: blue;
+}
+h3:last-of-type {
+  border-bottom: solid 1px red;
+}
+h3:hover {
+  background-color: rgba(209, 127, 51, 0.34);
+}
+h3 {
+  text-decoration: underline;
+}
+article h3 {
+  text-decoration: none;
+}

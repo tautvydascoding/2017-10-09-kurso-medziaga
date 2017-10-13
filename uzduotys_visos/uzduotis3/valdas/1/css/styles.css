@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color:red;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2 {
+  margin:0;
+  padding: 5px;
+}
+
+
+
+article {
+  background-color: #ddd;
+  border:1px solid #000;
+  width:30.666%;
+  float:left;
+  margin-left: 2%;
+  position: relative;
+  padding: 30px 10px 0 10px;
+}
+
+.first-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(232, 63, 205);
+  text-align: center;
+  width:100px;
+  position: absolute;
+  top:0;
+  right:0;
+
+}
+
+.second-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(232, 63, 0);
+  text-align: center;
+  width:100px;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.last-title {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(15, 0, 205);
+  text-align: center;
+  width:100px;
+  position: absolute;
+  top:0;
+  right:0;
+}

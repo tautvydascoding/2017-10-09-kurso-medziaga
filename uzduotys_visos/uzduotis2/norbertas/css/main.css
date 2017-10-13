@@ -1,0 +1,56 @@
+* {box-sizing: border-box; }
+body{margin: 0; padding: 0; background-color: rgb(155, 150, 177);}
+h1 {color: red;
+text-align: center;}
+.sameclass {
+    background-color: rgb(175, 175, 175);
+    width: 30%;
+    position: relative;
+    float: left;
+    border: solid 5px black;
+    }
+.clear {clear: both;}
+
+.first h3 {background-color: rgb(107, 112, 223); color: red;}
+.second h3 {background-color: rgb(177, 113, 143); color: cyan;}
+.third h3 {background-color: rgb(137, 187, 112); color: blue;}
+h3 {
+
+    border: solid 5px black; border-top: 0; border-right: 0;
+    width: 45%;
+    margin: 0;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+p {
+    width: 90%;
+    display: flex;
+    /*margin-top: 5%;*/
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+section{
+
+    display: flex;
+justify-content: space-around;}
+/*media*/
+@media (max-width: 768px) {
+
+    section {width: 100%;
+    height: 100%;
+ display: block;}
+    .first, .second {width:45%;
+    margin-left: 2.5%;
+}
+.first {margin-left: 2.5%;}
+    section .third {width: 92.5%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    }
+h3 {width: 60%;}
+@media (max-width: 425px){
+.sameclass {width: 92.5%;}
+.second{ margin-top: 2.5%;}
+}

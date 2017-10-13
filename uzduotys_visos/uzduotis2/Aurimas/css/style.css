@@ -1,0 +1,41 @@
+h2 {
+  color: red;
+}
+
+#antraste {
+  background-color: rgb(246, 159, 79);
+}
+
+pardavimo-tekstas {
+  color:  #000;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-blue {
+  color: blue;
+}
+
+section p {
+  color: rgb(180, 251, 215);
+}
+
+h3:hover {
+  background-color: rgb(233, 198, 237);
+  color:rgb(221, 101, 14);
+}
+
+h3:nth-child(2n+1)
+{
+  color: red;
+}
+
+article h3 {
+  text-decoration: none;
+}
+
+h3 {
+  text-decoration: underline;
+}
