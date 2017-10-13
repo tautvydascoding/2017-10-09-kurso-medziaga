@@ -1,0 +1,29 @@
+h1 {
+  color:rgb(22, 70, 29);
+}
+#antraste {
+  background-color: rgb(93, 162, 163);
+}
+.pre1 {
+  color: rgb(45, 153, 167);
+}
+selection p {
+  color:blue;
+}
+.text-dark-green {
+  color: green;
+}
+h3:nth-child(2n) {
+  color: yellow;
+}
+h3:last-of-type {
+border-bottom: solid 1px orange;
+}
+/*uzvedus pelyte*/
+h3:hover {
+  background-color: purple;
+  color: grey;
+}
+div.special h2{
+  color: red;
+}
