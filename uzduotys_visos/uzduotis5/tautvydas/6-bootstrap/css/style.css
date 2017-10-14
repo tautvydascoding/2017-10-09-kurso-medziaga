@@ -1,0 +1,42 @@
+
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    min-height: 100px;
+    height: 100px;
+    display: block;
+}
+.aukstis-300 {
+    min-height: 300px;
+    height: 300px;
+}
+.aukstis-500 {
+    min-height: 500px;
+    height: 500px;
+}
+.fonas-grey {
+    background-color: #b2b2b2;
+    border: solid 1px red;
+}
+.fonas-ligth {
+    background-color: #e2e9b2;
+    border: solid 1px red;
+}
+
+header,
+nav,
+section {
+    margin-bottom: 20px;
+}
+
+
+.plotis {
+    /*width: calc(100% - 2%);*/
+    width: 98%;
+    margin-left: 2%;
+}
+
+
+
+/**/
