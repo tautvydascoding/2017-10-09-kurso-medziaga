@@ -59,3 +59,45 @@ article {
   top: 0px;
   right: 0px;
 }
+.first-article {
+
+}
+
+.last-article {
+
+}
+/**/
+@media (max-width: 767px) {
+  article {
+    width: 47%;
+  }
+  .last-article {
+    width: 96%;
+    margin-top: 2%;
+  }
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  article {
+    width: 96%;
+    ;
+  }
+.last-article {
+  margin-top: 0;
+}
+
+
+}
+@@media print {
+  *{
+    background-color: #000;
+  }
+
+  img {
+    visibility: hidden;
+  }
+}
