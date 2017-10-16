@@ -1,0 +1,44 @@
+
+.fonas-grey {
+  background-color: grey;
+}
+.aukstis-150 {
+  min-height: 150px;
+}
+li {
+  padding-right: 150px;
+}
+a {
+  color: #000;
+}
+.aukstis-300 {
+  min-height: 300px;
+}
+.background {
+  background-image: url("../img/concert.jpg");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.button {
+  display: block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+
+}
+.fonas{
+  background-image: url('../img/fonas.jpeg');
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fonas2{
+  background-image: url('../img/fonas.jpeg');
+}
+.padding {
+  padding: 0;
+}

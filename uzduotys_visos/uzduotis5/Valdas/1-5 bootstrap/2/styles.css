@@ -1,0 +1,24 @@
+nav {
+  background-color: #d5e8d4;
+  padding:0;
+  margin:0;
+}
+
+header, footer {
+  background-color: #9bce0b;
+  height:15vh
+}
+
+article {
+  background-color: #fff;
+  height:70vh;
+}
+
+nav, header, footer, article {
+  padding: 10px;
+}
+
+.no-margin {
+  padding:0;
+  margin:0;
+}
