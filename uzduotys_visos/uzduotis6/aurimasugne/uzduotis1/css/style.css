@@ -91,6 +91,10 @@ article h5 {
     min-width: 150px;
 }
 
+.gallery-big-logo {
+    padding-right: 0;
+}
+
 
 /*-----END-GALLERY-CSS-------*/
 
