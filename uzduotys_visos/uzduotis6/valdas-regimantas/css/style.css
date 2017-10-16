@@ -2,8 +2,8 @@
 .gallery-item {
     width:400px;
     height:400px;
-    max-width:13vw;
-    max-height:13vw;
+    max-width:calc(12vw + 50px);
+    max-height:calc(12vw + 50px);
     border-radius:50%;
     overflow: hidden;
     object-fit: contain;
