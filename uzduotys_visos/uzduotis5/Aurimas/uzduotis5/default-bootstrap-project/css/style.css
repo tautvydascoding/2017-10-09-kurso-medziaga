@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.aukstis-100 {
+    min-height: 100px;
+}
+
+.aukstis-300 {
+    min-height: 300px;
+}
+ .fonas-grey {
+     background-color: #b2b2b2;
+     border: solid 1px red;
+ }
+  .fonas-light {
+      background-color: #e2e9b2;
+      border: solid 1px red;
+  }
+
+.margin-none {
+    margin: 0;
+}

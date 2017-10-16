@@ -1,0 +1,100 @@
+/*kad remeliai butu iskaiciuojami i plota*/
+*{
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  text-shadow: #000 0px 0px 35px;
+  font-family: 'Modak', cursive;
+}
+h2 {
+  text-align: center;
+}
+html {
+  background-color: rgb(236, 237, 237);
+}
+  body {
+    /*graziai mazinus ekrana kad atrodytu, max uzdetas dideliam ekrane*/
+        width: 100%;
+        max-width: 1100px;
+        /*CENTRAVIMAS*/
+        margin-left: auto;
+        margin-right: auto;
+  }
+  nav {
+    width: 66%;
+    }
+  #search {
+    width: 34%;
+    padding-top: 15px;
+  }
+  .float-left {
+    float: left;
+  }
+  ul {
+    padding: 0;
+  }
+  header li {
+    display: inline-block;
+    width: 25%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+#header-block {
+  background-color: rgb(64, 186, 156);
+  height: 52px;
+  text-align: center;
+}
+/*kad ilgesnis rasymo laukas butu*/
+input {
+  width: 80%;
+}
+button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 2px 20px;
+
+}
+/*******************VIRSUS END************************/
+section {
+  background-color: #fff;
+  height: 100%;
+  width: 70%;
+  padding: 25px 15px;
+    }
+
+  aside {
+    background-color: purple;
+    /*automatinis auksciu isskaiciavimas(reikia ant tevo uzdeti overflow:hidden) padding ir margin*/
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    width: 29%;
+    margin-left: 1%;
+
+  }
+  main {
+    padding-top: 10px;
+    padding-left: 0px;
+    /*kad aside didetu didejant  selectui*/
+    overflow: hidden;
+  }
+  /********************MAIN END**************************/
+
+footer {
+  background-color: #fff;
+  min-height: 80px;
+  height: auto;
+  margin-top: 10px;
+}
+footer p {
+  line-height: 80px;
+  text-align: center;
+}
+/*taiso Bugus kad nenufloatintu paskui ankstesnius floatus*/
+.clear-float {
+clear: both;
+}
+aside ul {
+  padding-left: 35px;
+}

@@ -1,0 +1,8 @@
+.menu {
+  background-color: rgb(50, 53, 55);
+  border: 1px solid #000;
+  min-height: 100px;
+  }
+  header a {
+    color: white;
+  }

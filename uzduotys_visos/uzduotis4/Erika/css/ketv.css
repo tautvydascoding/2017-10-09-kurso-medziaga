@@ -1,0 +1,89 @@
+article {
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: red;
+}
+body {
+  margin: 0;
+}
+#article-1 {
+float: left;
+}
+#article-2 {
+float: right;
+
+}
+#article-3 {
+margin-left: auto;
+margin-right: auto;
+}
+#article-4 {
+float: right;
+}
+#article-5 {
+  float: left;
+}
+.clear-fix {
+  clear: both;
+}
+@media (max-width: 767px) {
+article {
+  width: 45%;
+}
+#article-2, #article-5{
+  display: none;
+}
+}
+@media (max-width: 425px) {
+  article {
+    width: 100%;
+  }
+  #article-2 {
+    display:inline-block;
+
+      }
+  #article-4, #article-5{
+    display: none;
+  }
+}
+/*
+
+
+@media (max-width: 767px) {
+article {
+  width: 47%;
+}
+.last-article {
+  width: 96%;
+  margin-top: 2%;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+/*End media table*/
+/*--------------------------------*/
+/*@media (max-width: 425px) {
+article {
+  width: 96%;
+  margin-bottom: 2%;
+}
+.last-article {
+  margin-top: 0;
+}
+}
+/*KAD KAI PRINTINTU NESPAUSDINTU PAV*/
+/*@media print {
+* {
+  background-color: #fff;
+  color: #000;
+}
+/*KAD KUR BUVO FOTO LIKTU TUSTI BLOKAI*/
+/*img {
+  visibility: hidden;
+}
+}
+*/
