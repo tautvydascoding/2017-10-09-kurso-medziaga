@@ -1,0 +1,106 @@
+/*remeliu iskaiciavimas i elemento ploti*/
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color:  #A9A9A9;
+}
+body {
+
+  width: 100%;
+  /*centravimas*/
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*======header========*/
+h1 {
+  color: red;
+  text-shadow: #000 2px 0px 25px;
+  font-family: 'Modak', cursive;
+}
+h2 {
+  text-align: center;
+  font-family: 'Modak', cursive;
+}
+#header-block {
+  background-color: #FF80FF;
+  height: 50px;
+  text-align: center;
+}
+nav {
+  width: 66%;
+
+}
+ul {
+  padding: 0;
+
+}
+aside ul {
+  padding-left: 30px;
+}
+header li {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  text-transform: uppercase;
+}
+#search {
+  width: 34%;
+  padding-top: 15px;
+
+}
+.float-left {
+  float: left;
+}
+input {
+  width: 80%;
+}
+button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 2px 16px;
+
+  margin-left: 3px;
+}
+/*======Main===*/
+section {
+  background-color: #fff;
+  height: 100%;
+  width: 73%;
+  float: left;
+  margin-right: 2%;
+  padding: 25px 15px;
+}
+aside {
+  background-color: pink;
+  /*automatinis aukscio iskaiciavimas(ant tevo reikia uzdeti overflow:hidden)*/
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+  /*float*/
+  width: 25%;
+  float: left;
+
+}
+
+
+footer {
+background-color: #fff;
+min-height: 80px;
+height: auto;
+}
+.clear-float {
+  clear: both;
+}
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+footer p {
+  line-height: 80px;
+}
