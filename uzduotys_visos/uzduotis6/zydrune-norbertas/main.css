@@ -22,5 +22,10 @@ justify-content:center}
     text-align: center;}
     .teup{text-transform: capitalize;}
 .txdid{text-transform: uppercase;}
-.txauks{font-size: 3rem;}
+.txauks{font-size: 2rem;}
 .alig{    align-items:center;}
+.flendd{display: flex;
+justify-content: flex-end;}
+.bordas{border:solid 5px;
+}
+.talist{text-align: justify;}
