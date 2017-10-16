@@ -1,0 +1,18 @@
+ li {
+  display: inline;
+  padding: 70px;
+  color: #ffffff;
+}
+nav {
+  background-color: blue;
+  color: #ffffff;
+}
+.aukstis-40 {
+  min-height: 40px;
+}
+.aukstis-300 {
+  height: 300px;
+}
+.important-text {
+  text-align: center;
+}

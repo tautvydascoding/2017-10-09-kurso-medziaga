@@ -1,0 +1,30 @@
+
+
+h1 {
+    color: red;
+}
+.aukstis-100 {
+  min-height: 100px;
+}
+.aukstis-300 {
+  min-height: 300px;
+}
+
+.fonas-grey {
+  background-color: #b2b2b2;
+
+}
+ .fonas-light {
+   background-color:#e2e9b2;
+
+ }
+ nav {
+   min-height: 100vh;
+   height: 100vh;
+ }
+header, footer {
+  min-height: 20vh;
+}
+section {
+  min-height: 60vh;
+}
