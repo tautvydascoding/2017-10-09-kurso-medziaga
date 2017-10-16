@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+    <!--<link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">-->
+    <!-- mano css turi buti visada zemiau nei kiti css failai -->
+    <link rel="stylesheet" href="./style.css">
+    <title>bootstrapo testavimas</title>
+  </head>
+  <body>
+<h1>Testuosime bootstrap</h1>
+<div class="container">
+  <div class="row">
+    <!--3 stulpeliai, viena nurodem 5 plotis o kiti du automatiskai pasidalino (12-5)/2  -->
+    <div class="col aukstis-100 fonas-grey">
+      <!-- sutalpinti 100% i ta vieta -->
+      <img class="img-responsive img-fluid" src="./image1.jpg" alt="juros vaizdas">
+    </div>
+    <div class="col-md-5 aukstis-100 fonas-grey">
+        <img class="img-thumbnail" src="./image1.jpg" alt="juros vaizdas">
+    </div>
+    <div class="col aukstis-100 fonas-grey">
+        <img class="rounded" src="./image1.jpg" alt="juros vaizdas">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+        <img class="mx-auto d-block" src="./image1.jpg" alt="juros vaizdas" width="100px" height="100px">
+    </div>
+  </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+.row {
+  margin: 0 0 0 40px;
+  align-self: flex-start;
+  height:100vh;
+  overflow: scroll;
+}
+
+#logo {
+  max-width:80%;
+  padding:10px;
+}
+
+
+#background {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+.main {
+  height: calc(100vh - 100px);
+}
+
+.main-text {
+  text-transform: uppercase;
+  margin: 30px 0;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#description {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.main {
+  height: 761px;
+  display:flex;
+  align-items: center;
+
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+label {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+}
+
+.form-item {
+  display: inline;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 5px 0;
+}
+
+form .border {
+  border: none;
+  background: none;
+}
+
+form .border {
+  border-bottom: 1px solid #000 !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.form-item:first-child {
+  padding: 0 10px 0 0;
+}
+
+.row .input-form {
+  padding: 0;
+  margin: 0;
+}
+
+.row .main-section {
+  margin: 0 5%;
+}
+
+.row {
+  margin: 0;
+}
+
+#submit {
+  width: 50%;
+  height: 4rem;
+  border: 2px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 30px;
+  background: none;
+}
+
+
+label {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+@media (max-width:575px) {
+  h1 {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  #submit {}
+  .text-section {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .text-section {
+      padding:0 10%;
+  }
+
+  .row .main-section {
+    margin: 0;
+    width:100%;
+    padding:0;
+  }
+
+  #logo {
+    margin:auto;
+  }
+
+  .main-section {
+    justify-content: center;
+    margin-top:0;
+  }
+}

@@ -1,0 +1,21 @@
+
+.aukstis-100 {
+  min-height: 100px;
+}
+.aukstis-300 {
+  min-height: 300px;
+}
+.fonas-grey {
+  background-color: #b2b2b2;
+  border: solid 1px black;
+}
+.fonas-white {
+  background-color: #d2d0d0;
+  border: solid 1px black;
+
+}
+.fonas-aside {
+  background-color: rgb(249, 213, 204);
+  border: solid 1px black;
+  
+}

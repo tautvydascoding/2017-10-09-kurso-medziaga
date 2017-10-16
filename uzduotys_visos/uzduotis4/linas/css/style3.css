@@ -1,0 +1,109 @@
+/* ------global-----------*/
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*-------------------*/
+h1, h2, h3,h4 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 64px;
+}
+h2 {
+  margin: 0
+}
+article {
+  background: #ddd;
+  border: solid 1px #000;
+  /*elementus i viena puse butinai float eina su plociu*/
+  width: 30.6%;
+  float: left;
+  margin-left: 2%;
+  /* article tevas padarom, vaikai tapo h2*/
+  position: relative;
+  /*padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;*/
+  padding: 30px 15px 0 15px;
+}
+
+.first-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #D59898;
+  text-align: center;
+  width: 120px;
+
+/*skraidymas*/
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+.second-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #C14543;
+  text-align: center;
+  width: 120px;
+/*skraidymas*/
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+.last-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #E5D198;
+  text-align: center;
+  width: 120px;
+/*skraidymas*/
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*-------tablet----------*/
+@media (max-width:767px) {
+  article {
+    width: 47%;
+  }
+  .last-article {
+    width: 96%;
+    margin-top: 2%;
+  }
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*end media tablet*/
+/*-----mobile_____*/
+@media (max-width: 425px) {
+article {
+  width: 96%;
+  margin-bottom: 2%;
+}
+.last-article {
+  margin-top: 0;
+}
+
+}
+/*end mobile media*/
+
+@media print {
+  *{
+    background-color: #fff;
+    color: #000;
+  }
+  img{
+    visibility: hidden;
+  }
+}

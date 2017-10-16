@@ -1,0 +1,115 @@
+* {
+    /*remeliai iskaiciuojami i elemento ploti*/
+    box-sizing: border-box;
+}
+
+/*----fonts, galima vardinti kelis per kableli pagal svarbuma, galima google fonts naudot----*/
+h1, h2 {
+    font-family: sans-serif, serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 64px;
+}
+
+h2 {
+    margin: 0; /*panaikinti browser css problema*/ 
+}
+
+article {
+    border: solid 1px #000;
+    background-color: gray;
+/*elementai i viena eilute; butinos komandos width ir float*/
+    width: 28%;
+    float: left;
+/*tarpai per margins(isore, judinamas elementas, veikia tik display block) arba padding (objekto viduje)*/
+    margin-left: 4%;
+    position: relative;
+    padding: 25px 15px 5px 15px;
+    text-align: justify;
+}
+
+
+.first-title {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: navajowhite;
+    text-align: center;
+    width: 120px;
+    position: absolute; /*skraidys auksciau kitu elementu, po viena nevaiksto; bet reikia pozicijos(top;right;bottom;left) ir prideti position:relative tevui; fixed-statiskas;*/
+    top: 0px;
+    right: 0px;
+}
+
+.second-title {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: coral;
+    text-align: center;
+    width: 120px;
+    color: white;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.third-title {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: yellow;
+    text-align: center;
+    width: 120px;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/*tekstai lenda po title; 3 budai: sukurtii daugiau vietos article su padding-top;*/
+
+@media (min-width: 768) {
+    /*dar yra print(spausdinimui aprasyti, isjungti paveiksliukus etc.)
+    screen()
+    orientation()
+    galima kombinuot: @media () and () -patikslina salyga/nuo-iki;
+    arba per kableli - veikia ant keliu dydziu isvardintu */
+}
+
+/*-----MEDIA-QUERIES-TABLET----*/
+/*geriausia deti psl apacioje*/
+
+@media (max-width: 767px) {
+    article {
+        width: 44%;
+        /*min-width:;*/
+    }
+    .third-block {
+        width: 92%;
+        /*min-width:;*/
+        margin-top: 3%;
+    } /*uzsdaro elementas*/
+}/*uzsidaro media*/
+
+/*---END-MEDIA-TABLET---*/
+/*--MEDIA-QUERIES-MOBILE--*/
+@media (max-width: 425px) {
+    article {
+        width: 96%;
+        margin-bottom: 3%;
+    }
+    .third-block {
+        margin-top: 0;
+    }
+}
+
+/*spausdinimui*/
+@media print {
+    * {
+        background-color: #fff;
+        color: #000
+}
+    img {
+        visibility: hidden;
+    }
+}
