@@ -1,0 +1,68 @@
+* {
+  /*remeliai iskaiciuojami i elemento dydi ir ploti*/
+  box-sizing: border-box;
+}
+/*normalus kodas prasideda*/
+h1, h2, h3, h4 {
+  font-family: sans-serif, verdana;
+}
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 64px;
+}
+h2 {
+  margin-top: 0px;
+}
+article {
+  background-color:rgb(173, 173, 173);
+  border: solid 1px #000;
+  /*sudedame elementus i viena eilute*/
+  width: 30.66%;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  padding-top: 25px;
+  padding-left: 15px;
+  pading-right: 15px;
+}
+.first-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #D59898;
+  text-align: center;
+  width: 25%;
+  min-width: 120px;
+
+  /*chichen laukelio skraidymas*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.second-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #C14543;
+  text-align: center;
+  width: 25%;
+  min-width: 120px;
+
+  /*chichen laukelio skraidymas*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.last-title {
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  background-color: #E5D198;
+  text-align: center;
+  width: 25%;
+  min-width: 120px;
+
+  /*chichen laukelio skraidymas*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
