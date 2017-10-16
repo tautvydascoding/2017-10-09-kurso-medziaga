@@ -2,10 +2,6 @@ header.row {
   background-color: red;
   height: 100%;
 }
-h1 {
-  text-align: center;
-  line-height: 150px;
-}
 nav img {
   max-height: 100px;
 }
@@ -28,4 +24,8 @@ nav a:hover {
 }
 #logo {
   height: 45px;
+}
+#manoantraste {
+  text-align: center;
+  line-height: 150px;
 }
