@@ -1,3 +1,4 @@
+
 .fonas-grey {
   background-color: grey;
 }
@@ -22,9 +23,22 @@ a {
 }
 .button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
 
+}
+.fonas{
+  background-image: url('../img/fonas.jpeg');
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fonas2{
+  background-image: url('../img/fonas.jpeg');
+}
+.padding {
+  padding: 0;
 }
