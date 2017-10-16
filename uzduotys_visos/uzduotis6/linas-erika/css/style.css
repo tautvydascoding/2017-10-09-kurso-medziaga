@@ -1,0 +1,30 @@
+.fonas-grey {
+  background-color: grey;
+}
+.aukstis-150 {
+  min-height: 150px;
+}
+li {
+  padding-right: 150px;
+}
+a {
+  color: #000;
+}
+.aukstis-300 {
+  min-height: 300px;
+}
+.background {
+  background-image: url("../img/concert.jpg");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+
+
+}

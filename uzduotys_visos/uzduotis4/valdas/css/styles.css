@@ -1,0 +1,8 @@
+.bg-grey {
+    background-color: #ddd;
+}
+
+.aukstis-100 {
+    min-height: 100px;
+    border:1px solid #fff;
+}
