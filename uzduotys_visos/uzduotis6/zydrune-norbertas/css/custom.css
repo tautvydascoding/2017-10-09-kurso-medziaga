@@ -1,0 +1,49 @@
+.head {
+    /*height: 180px;*/
+    /*background-color: blue;*/
+    /*border-right: 1px solid green;*/
+}
+
+
+li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  line-height: 115px;
+  padding-right: 50px;
+  color: black;
+  display: inline;
+  vertical-align: text-bottom;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+img.cat-logo {
+  /*vertical-align: middle;*/
+}
+
+.logo {
+  width: 80px;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.antr {
+  height: 100px;
+  background-color: red;
+}
+
+.ad {
+  height: 300px;
+  background-color: pink;
+}
+
+.ad h1 {
+  color: blue;
+  text-align: center;
+  line-height: 300px;
+  vertical-align: middle;
+}

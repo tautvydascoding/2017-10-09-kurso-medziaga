@@ -1,0 +1,79 @@
+      /* Meals */
+
+/* Font */
+body {
+  margin: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+
+
+}
+
+h2 {
+  font-family: fantasy;
+  text-align: center;
+  max-width: 30%;
+  height: 30px;
+  padding-right: 5px;
+}
+.wrapper-chicken h2 {
+  background-color: #CFB3CD;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  margin-top: 0px;
+  margin-left: 70%;
+
+}
+.wrapper-beef h2 {
+  background-color: #91C7B1;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  margin-top: 0px;
+  margin-left: 70%;
+
+
+}
+
+.wrapper-sushi h2 {
+  background-color: #C9EDDC;
+  border-style: solid;
+  border-width: 0px 0px 2px 2px;
+  margin-top: 0px;
+  margin-left: 70%;
+  clear: both;
+}
+
+p {
+  font-family: roboto;
+  font-size: 2em;
+  text-align: justify;
+  margin: 3px;
+
+}
+.wrapper > div {
+  background-color: #6A706E;
+  max-width: 32%;
+  float: left;
+  margin-right: 1%;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.wrapper-chicken {
+  margin-left: 1%;
+}
+
+section p {
+  color: #6A706E;
+}
+section :nth-child(2n) {
+  color: #C9EDDC;
+}
+section :last-child {
+  color: #CFB3CD;;
+}
