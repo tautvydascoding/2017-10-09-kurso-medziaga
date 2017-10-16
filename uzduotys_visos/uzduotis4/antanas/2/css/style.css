@@ -1,0 +1,57 @@
+* {
+    /* remeliai iskaiciuojami i lemento dydi / ploti */
+    box-sizing: border-box;
+}
+article {
+	width: 33%;
+	height: 200px;
+	background-color: #b2b2b2;
+	text-align: center;
+
+	border: solid 1px red;
+}
+#article-2,
+#article-5 {
+	float: right;
+}
+#article-1,
+#article-4 {
+	float: left;
+}
+.clear-float {
+	clear: both;
+}
+#article-3 {
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (max-width: 768px) {
+	#article-2,
+	#article-5 {
+		display: none;
+	}
+	#article-4 {
+		float: right;
+	}
+	#article-3 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	article {
+		width: 50%;
+	}
+}
+@media (max-width: 425px) {
+	#article-2 {
+		display: block;
+	}
+	#article-4 {
+		display: none;
+	}
+	article {
+		width: 100%;
+	}
+	body {
+		margin: 0;
+	}
+}
