@@ -1,0 +1,149 @@
+/*-----GALLERY-CSS------*/
+.gallery {
+    background-color: #002A33;
+}
+
+.gallery-section {
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    background-image: url(https://i.ytimg.com/vi/lt0WQ8JzLz4/maxresdefault.jpg)
+}
+
+.gallery-img {
+    height: 200px;
+    min-height: 200px;
+    width: 200px;
+    min-width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.gallery-ads {
+    border: solid 2px #002A33;
+}
+/*------END-MAIN-SECTION-CSS-----*/
+
+section h2 {
+    text-align: center;
+}
+.gallery-ads {
+    background-color: #C7D3D6;
+}
+
+.img-ad {
+    width: 600px;
+    min-width: 300px;
+    height: 300px;
+    min-height: 100px;
+    
+}
+
+.ad-content {
+    text-transform: uppercase;
+    color: #002A33;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    
+}
+/*-----END-AD-SECTION-CSS*/
+.gallery-article {
+    background-color: #022A33;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h4 {
+    text-align: center;
+}
+
+article h5 {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*-----GALLERY-FOOTER------*/
+.gallery-footer {
+    background-color: #C7D3D6;
+    border: solid 1px #022A33;
+}
+.gallery-nav {
+    text-transform: uppercase;
+    color: #002A33;
+    list-style: none;
+}
+
+.gallery-logo {
+    height: 100px;
+    min-height: 100px;
+    width: 150px;
+    min-width: 150px;
+}
+
+.gallery-big-logo {
+    padding-right: 0;
+}
+
+
+/*-----END-GALLERY-CSS-------*/
+
+header {
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+header img {
+    min-height: 100%;
+}
+
+h3 {
+    position:absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+section {
+    padding-top: 30px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(219, 219, 219);
+}
+
+.navbar-nav .nav-link {
+
+    margin: 1rem;
+}
+
+.nuotrauka-grumpy {
+    padding-right: 0;
+}
+
+
+.pagrindine-nuotrauka {
+    min-width: 100%;
+}
+
+.pagrindines-nuotraukos-sekcija {
+    padding: 0;
+}
+
+.logo {
+    padding: 0;
+}

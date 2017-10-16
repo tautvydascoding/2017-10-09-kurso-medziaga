@@ -1,33 +1,80 @@
-* {
+    * {
     box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0;
     height: 100%;
 }
-.apvals{border-radius: 15rem;}
-.centr{display: flex;
-    justify-content: center;}
-    .beetw{display: flex;
-    justify-content: space-between;}
-    .aroundddd{display: flex;
-    justify-content: space-around;}
-.bgcc{background-color: rgb(223, 245, 184);}
-.aukst{height: 250px;}
-.vali{display: flex;
-    align-items:center;
-justify-content:center}
-.txali{
-    text-align: center;}
-    .teup{text-transform: capitalize;}
-.txdid{text-transform: uppercase;}
-.txauks{font-size: 2rem;}
-.alig{    align-items:center;}
-.flendd{display: flex;
-justify-content: flex-end;}
-.bordas{border:solid 5px;
+
+.apvals {
+    border-radius: 15rem;
 }
-.talist{text-align: justify;}
-.nav-link{color:rgb(107, 22, 25);
+
+.centr {
+    display: flex;
+    justify-content: center;
+}
+
+.beetw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aroundddd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bgcc {
+    background-color: rgb(223, 245, 184);
+}
+.bgccwhi{background-color: white;}
+
+.aukst {
+    height: 250px;
+}
+
+.vali {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.txali {
+    text-align: center;
+}
+
+.teup {
+    text-transform: capitalize;
+}
+
+.txdid {
+    text-transform: uppercase;
+}
+
+.txauks {
+    font-size: 2rem;
+}
+
+.alig {
+    align-items: center;
+}
+
+.flendd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bordas {
+    border: solid 5px;
+}
+
+.talist {
+    text-align: justify;
+}
+
+.nav-link {
+    color: rgb(107, 22, 25);
     font-weight: bold;

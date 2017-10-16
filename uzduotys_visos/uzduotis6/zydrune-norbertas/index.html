@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Darbas su bootstrap</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css" />
     <!-- <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css" -->
-    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/custom.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="container">
 
 
-        <header class="row antr">
-            <div class="col-2 head">
-                <a href="#">
+      <header class="row purple">
+        <div class="col-md-2 head" id="logo">
+          <a href="#">
             <img src="img/cat-logo.png" alt="logo" class="logo" />
           </a>
+        </div>
+
+        <nav class="col-md-8">
+          <ul class="nav">
+            <li class=""><a href="#">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
+
+        <div class="col-md-2 head p-0 ill">
+          <img src="img/illustration.jpg" alt="" id="illustration"/>
+        </div>
+      </header>
+
+
+      <div class="str">
+        <div class="row">
+          <div class="col-md-12 antr"> <!-- antraste -->
+            <h1>Antraste</h1>
+          </div>
+        </div>
+        <div class="row d-flex flex-column">
+            <div class="col-md-4 align-self-start">
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
+              </p>
             </div>
-
-            <nav class="col">
-
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./galery.html">gallery</a>
-                    </li>
-
-                </ul>
-            </nav>
-
-
-                <div class="col-2 p-0"> <a href="./galery.html">
-           <img src="./libs/nuotr/DSC02780.JPG" alt="logo" class="auksimtas" />
-         </a>
-                </div>
-        </header>
-
-
-        <div class="str">
-            <div class="row">
-                <div class="col-md-12 txali ">
-                    <!-- antraste -->
-                    <h3>antraste</h3>
-                </div>
+            <div class="col-md-4 align-self-center">
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
+              </p>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
-                    </p>
-                </div>
+            <div class="col-md-4 align-self-end">
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com modo cons equat pariatur.
+              </p>
             </div>
         </div>
-        <!-- end of str -->
-    </div>
-    <!-- End of the container -->
+      </div> <!-- end of str -->
+    </div> <!-- End of the container -->
 
 
-    <div class="container-fluid">
-        <!-- container-fluid -->
-        <div class="row ad">
-            <div class="col-md-12">
-                <h1>Registruotis!</h1>
+    <div class="container-fluid"> <!-- container-fluid -->
+      <div class="row ad mt-5 aukst purple">
+        <div class="col-md-12 d-flex justify-content-center align-items-center">
+          <button>Registruotis!</button>
+        </div>
+      </div>
+    </div> <!-- End of container-fluid -->
+
+    <div class="container-fluid mt-5">
+        <div class="row bgcc aukst">
+            <div class="col-3 vali">
+                <img src="./libs/nuotr/char.png" alt="diagrama" height="200px" width="200px">
+            </div>
+            <div class="col">
+                <h3 class="txali mt-3 teup">antraste</h3>
+                <p class="txali mt-5 talist">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
             </div>
         </div>
     </div>
-    <!-- End of container-fluid -->
-</body>
 
+    <div class="container">
+      <div class="row aukst bordas mt-5">
+          <div class="col-4 vali">
+              <nav class="nav flex-column txauks txdid ">
+
+                  <a class="nav-link" href="index.html">home</a>
+                  <a class="nav-link" href="gallery.html">galery</a>
+              </nav>
+
+          </div>
+          <div class="col flendd vali">
+              <img src="./libs/nuotr/skacai.jpg" alt="kacai" width="200px" height="200px" />
+          </div>
+      </div>
+    </div>
+  </body>
 </html>
