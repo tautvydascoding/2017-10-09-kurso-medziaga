@@ -1,0 +1,13 @@
+/*-----SITO NEREIKIA:
+* {
+    box-sizing: border-box;
+------NES JAU YRA BOOTSTRAP--*/
+
+.background-grey {
+    background-color: #b2b2b2;
+    border: solid 1px black;
+}
+
+.height {
+    min-height: 100px;
+}

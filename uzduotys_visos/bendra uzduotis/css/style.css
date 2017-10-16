@@ -1,0 +1,23 @@
+.image-small {
+max-height: 200px;
+}
+.rounded-circle {
+  margin: 15px;
+}
+
+.fonas{
+  background-image: url('../img/fonas.jpeg');
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.margin-top {
+  margin-top: 35px;
+}
+.fonas2{
+  background-image: url('../img/fonas.jpeg');
+}
+.no-margin {
+  margin: 0;
+}

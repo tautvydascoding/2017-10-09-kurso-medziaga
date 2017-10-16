@@ -1,0 +1,18 @@
+h1 {
+    color: rebeccapurple;
+}
+
+.height-100 {
+    min-height: 100px;
+}
+
+.background-grey {
+    background-color: #b2b2b2;
+    border: solid 1px red;
+}
+
+img {
+    border-radius: 230px;
+}
+
+/*objektu centravimas ".mx-auto"*/
