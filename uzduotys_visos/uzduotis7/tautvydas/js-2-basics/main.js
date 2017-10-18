@@ -29,4 +29,6 @@ autorius += " gruodzio 14d";  // +=    "autorius = autorius +"
 console.log("autorius", autorius);
 
 
+
+
 //
