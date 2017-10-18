@@ -16,9 +16,10 @@ console.log("labas");
 
 
 // IDEA: uzduotis 4 - papildomos uzduotys   ------------
- 
+
 //// sukurti f-ja kuri atspausdina paduotas reiksmes
-//// pvz: spausdinti(4.5, 0, "geras lankomumas");
+//// pvz:
+spausdintiPazymius(4.5, 0, "geras lankomumas");
 //
 
 
@@ -26,4 +27,4 @@ console.log("labas");
 // B) sukurti f-ja SpausdinuVarda(vardas), kuri isveda i konsole teksta:  paduota kintamaji
 // C) sukurti f-ja kelimasKvadratu(x), kuri isveda i konsole paduoto kintamo reiksme pakelta kvadratu ( pvz x*x)
 // D sukurti f-ja kuri atspausdina paduotas reiksmes pazymiai(a,b,c)
-// E) sukurti f-ja skaiciavimai(x,y,z), kuri isveda i konsole x + 2, y + 4, z *2 
+// E) sukurti f-ja skaiciavimai(x,y,z), kuri isveda i konsole x + 2, y + 4, z *2

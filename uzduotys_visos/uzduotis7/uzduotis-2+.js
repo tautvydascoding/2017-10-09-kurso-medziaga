@@ -3,28 +3,28 @@ console.log("Labas");
 
 
 // 0 uzduotis ===========
-// var data = prompt("Ivesk savo gimimo data");
+// var duomenys = prompt("Ivesk savo gimimo data");
 // console.log("ivestas skaicius: " + data);
 
 
-document.write("<h1> Pakeistas</h1> ");
-// window.alert("Labas, eik is cia");
+// document.write("<h1> Pakeistas</h1> ");
+window.alert("Labas, eik is cia");
 
 
 
 
 
-// 1 uzduotis =========== 
+// 1 uzduotis ===========
 // uzduotis 50 kartu atspausdinti zodi: "Azuolas"  (for)
 
     console.log("Azuolas" + i);
-    document.write("Azuolas <br>");
-    
+    document.querySelector("main").innerHTML = "Azuolas" + i + "<br>";
+
 // 2 uzduotis ===========
-// A) susikurit f-ja (x) kuri  atspausdina paduota reiksme
+// A) susikurti f-ja spausdintiX(x) kuri  atspausdina paduota reiksme
 // B) 150 kartu paleisti sia ^ f-ja, (paduodant "i" reiksme)
 
- 
+
 
 
 
@@ -34,7 +34,7 @@ document.write("<h1> Pakeistas</h1> ");
 
 
 
- 
+
 
 // 3 uzduotis ===========
 // isvesti 150 skaiciu vienoje eiluteje
@@ -60,7 +60,7 @@ document.write("<h1> Pakeistas</h1> ");
 ////  5) piestiStulpeli(x)    f-ja kioje while ciklas nupiesia stulpeli
 //// 6) nupiestiLentelesStulpeliuPavadinimus(firstColName, secondColName, lastColName) Nereik while!
 
- 
+
 
 piestiEilute(50);
 console.log("   NR   |       Vardas     |       Pavarde     |");
@@ -73,14 +73,14 @@ piestiEilute(50);
 
 img = "<img src='' width='100px' height='100px'/>   ";
 document.write( "<br>" );
- document.write( img ); 
+ document.write( img );
 
- 
+
 
 // arba
 
-for ( 
-    for ( 
+for (
+    for (
 }
 
 //

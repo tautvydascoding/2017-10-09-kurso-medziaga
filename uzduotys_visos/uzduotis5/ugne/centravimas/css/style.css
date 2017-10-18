@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+#experiment {
+    width: 100%;
+    height: 500px;
+    background-color: #A2a2a2;
+    position: relative;
+}
+
+.btn-reg {
+    /*horizontalus centravimas*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /*vertikalus centravimas, teti paskelbti position:relative, bet tada neveikia margins, bet nebus idealiai centre*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*reikia paslinkti atgal i kaire ir i virsu*/
+    transform: translate(-50%, -50%);
+    
+}
