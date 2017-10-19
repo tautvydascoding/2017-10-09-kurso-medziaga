@@ -1,10 +1,11 @@
-==========musu puslapis uzimtu visu monitoriaus auksti =========
+﻿==========musu puslapis uzimtu visu monitoriaus auksti =========
 body, html {
     height: 100%;
 }
 
 * {
- box
+ box-sizing: border-box;
+}
 ===============================
 elemento centravimas
 
@@ -64,7 +65,7 @@ aside {
                 </div>
             </section>
 
-// ===============per visa auksti ir desineje===========================
+// ===============per visa auksti ir desineje  background-img===========================
 
     background-image: url(../assets/background.jpg); 
     background-position-y: center;
