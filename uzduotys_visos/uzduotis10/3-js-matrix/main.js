@@ -29,7 +29,7 @@ for (var i = 0; i < 3; i++) {
     var info = darbuotojai[1][i];  // local
     console.log( info );
 }
-//=============================================
+// =============================================
 // eisime per stulpelius
 for (var i = 0; i < 3; i++) {
     // eisime per eilutes
