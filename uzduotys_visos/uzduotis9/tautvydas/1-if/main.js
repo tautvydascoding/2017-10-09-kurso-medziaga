@@ -30,12 +30,6 @@ if ( skaicius1 > skaicius2) {
 }
 
 
-if (skaicius1 > skaicius2 &&  skaicius1 > skaicius3) {
-    console.log("skaicius1 pats didziuasias");
-}
-if ( nesiprasias ||  nesusisukavias) {
-    console.log("neiles i restorana");
-}
 var age = 12;
 if ( age < 14 || age > 65) {
     console.log("Simsonus");
@@ -49,3 +43,6 @@ if ( age < 14 || age > 65) {
 } else if (true) {
 
 }
+
+
+// ==========switch===========
