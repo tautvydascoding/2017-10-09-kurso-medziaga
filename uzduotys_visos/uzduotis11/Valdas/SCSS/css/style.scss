@@ -1,0 +1,83 @@
+
+$main1: #a1a1a1;
+$main2: #c4c4c4;
+
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    min-height: 100px;
+    height: 100px;
+    display: block;
+}
+.aukstis-300 {
+    min-height: 300px;
+    height: 300px;
+}
+.fonas-grey {
+    background-color: #b2b2b2;
+    border: solid 1px red;
+}
+.fonas-ligth {
+    background-color: #e2e9b2;
+    border: solid 1px red;
+}
+
+.container-fluid {
+    background-color: $main1;
+
+    header {
+        background-color: $main2;
+    }
+}
+
+main a {
+    color: red;
+
+    &:hover {
+        color: orange;
+        text-decoration: none;
+    }
+    &:active {
+        color:#000;
+    }
+}
+$red: red;
+$big-text: 29px;
+$font-w-b: 600;
+$font-w-n: 300;
+
+section {
+    h3 {
+        font:{
+            size:$big-text;
+            weight:$font-w-b;
+        }
+        color: $red;
+    }
+
+    p {
+        font: {
+            size:16px;
+            weight:$font-w-n;
+        }
+    }
+}
+
+aside {
+    color: $red;
+    font: {
+        size: $big-text;
+        weight:$font-w-n;
+    }
+
+    p {
+        font: {
+            size:14px;
+            weight:$font-w-b;
+        }
+        &:hover {
+            background-color: #a1a1a1;
+        }
+    }
+}
