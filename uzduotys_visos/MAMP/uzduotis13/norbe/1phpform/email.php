@@ -29,7 +29,7 @@ try {
     $mail->setFrom($pasteliukas , 'hiltis acb');
     $mail->addAddress('tastukas.patestuks@gmail.com', 'pro grameris');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo($pasteliukas.com, 'Information');
+    $mail->addReplyTo($pasteliukas, 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
