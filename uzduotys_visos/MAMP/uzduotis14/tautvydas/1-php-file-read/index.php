@@ -10,7 +10,7 @@
         <?php
             echo "<h1>MOkomesPHP skaityti failus</h1>";
 
-            $duomenuFailas = fopen("./prekiu_duomenys.txt", "r") or die(" prekiu_duomenys.txt toks failas nerastas, tikriausiai nurodete bloga kelia");
+            // $duomenuFailas = fopen("./prekiu_duomenys.txt", "r") or die(" prekiu_duomenys.txt toks failas nerastas, tikriausiai nurodete bloga kelia");
 
             // feof - tikrina ar dabartine failo eilute yra paskutine
             // while ( !feof($duomenuFailas)) {
@@ -46,7 +46,34 @@
             // fclose($duomenuFailas);
 
 
+            // uzduotis 2
+            $duomenuFailas = fopen("./prekiu_duomenys.txt", "r") or die(" prekiu_duomenys.txt toks failas nerastas, tikriausiai nurodete bloga kelia");
+
+            $visosPrekes = array();
+            $i = 0;
+            // while ( !feof($duomenuFailas)) {
+            //      $eilute = fgets($duomenuFailas); //  fgets - nuskaito vis sekancia failo eilute!!
+            //      $prekesDuomenys = explode(" : ", $eilute); // local
+            //     //  $visosPrekes[$i] = $prekesDuomenys;
+            //      array_push($visosPrekes, $prekesDuomenys );
+            //      $i++;
+            // }
+            // ARBA
+            for ($i=0; !feof($duomenuFailas)  ; $i++) {
+                $eilute = fgets($duomenuFailas); //  fgets - nuskaito vis sekancia failo eilute!!
+                $prekesDuomenys = explode(" : ", $eilute); // local
+                $visosPrekes[$i] = $prekesDuomenys;
+            }
+            fclose($duomenuFailas);
+
+            echo "antros prekes kaina:". $visosPrekes[1][2] . " <br />";
             
+            foreach ($visosPrekes as $preke) {
+                    echo "<h2>  " . $preke[0] . "</h2>";
+                    echo "<h3>  " . $preke[1] . "</h3>";
+                    echo "<button>  " . $preke[2] . "</button>";
+                    echo "<hr />";
+            }
          ?>
 
     </body>
