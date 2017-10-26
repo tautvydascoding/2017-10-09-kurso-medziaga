@@ -23,8 +23,8 @@ try {
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'debilas3999@gmail.com';                 // SMTP username
     $mail->Password = 'debilas123';                           // SMTP password
-    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 465;                                    // TCP port to connect to
+    $mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom($klientoElPastas, 'Klientas');
