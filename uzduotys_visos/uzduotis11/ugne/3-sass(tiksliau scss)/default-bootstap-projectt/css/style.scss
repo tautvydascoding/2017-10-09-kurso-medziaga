@@ -1,0 +1,70 @@
+
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    min-height: 100px;
+    height: 100px;
+    display: block;
+}
+.aukstis-300 {
+    min-height: 300px;
+    height: 300px;
+}
+.fonas-grey {
+    background-color: #b2b2b2;
+    border: solid 1px red;
+}
+.fonas-ligth {
+    background-color: #e2e9b2;
+    border: solid 1px red;
+}
+ 
+.container-fluid {
+    background-color: #a1a1a1;
+    
+    header {
+        background-color: #c4c4c4;
+    }
+}
+
+$main1: #a1a1a1;
+$main2: #c4c4c4;
+$main3: red;
+$font1: 29px;
+$font2: 16px;
+$font3: 14px;
+$weight1: 300;
+$weight2: 600;
+
+aside {
+    color: $main3;
+    font-size: $font1;
+    font-weight: $weight1;
+    p {
+        font-size: $font3;
+        font-weight: $weight2;
+    }
+}
+
+section {
+    color: $main3;
+    font-size: $font1;
+    font-weight: weight2;
+    p {
+        font-size: $font2;
+        font-weight: $weight1;
+        &:hover {
+            background-color: $main1;
+        }
+    }
+}
+main a {
+        color: whitesmoke;
+    &:hover {
+        color: orangered;
+    }
+    &:active {
+        color: blue;   
+        }
+}

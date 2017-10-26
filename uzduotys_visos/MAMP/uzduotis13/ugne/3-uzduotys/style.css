@@ -1,0 +1,42 @@
+header {
+    border: solid 1px red;
+    height: 20vh;
+}
+
+
+li {
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+}
+
+
+aside {
+    border: solid 1px black;
+    height:  70vh;
+    margin: 0;
+    width: 20vh;
+    background-color: blue;
+    float: left;
+}
+
+section {
+    border: solid 1px red;
+    height:  70vh;
+    background-color: darkorange;
+}
+
+.img-thumbnail {
+    border: solid 1px red;
+    height: 150px;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+}
+
+.line {
+    border-bottom: solid 5px black;
+    width: 55vw;
+    margin: 20px;
+}
