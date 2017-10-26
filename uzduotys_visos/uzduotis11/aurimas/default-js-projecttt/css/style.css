@@ -1,0 +1,38 @@
+h1 {
+  color: red; }
+
+.aukstis-100 {
+  min-height: 100px;
+  height: 100px;
+  display: block; }
+
+.aukstis-300 {
+  min-height: 300px;
+  height: 300px; }
+
+.fonas-grey {
+  background-color: #b2b2b2;
+  border: solid 1px red; }
+
+.fonas-ligth {
+  background-color: #e2e9b2;
+  border: solid 1px red; }
+
+section h2 {
+  color: red;
+  font-size: 29px;
+  font-weight: 600; }
+
+section p {
+  font-size: 16px;
+  font-weight: 300; }
+
+aside {
+  color: red;
+  font-size: 29px;
+  font-weight: 300; }
+  aside p {
+    font-size: 14px;
+    font-weight: 600; }
+    aside p:hover {
+      background-color: #a1a1a1; }

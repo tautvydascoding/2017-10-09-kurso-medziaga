@@ -1,51 +1,21 @@
-var everyother = [];
+// ============================= matricos
+var darbuotojai = [];
+darbuotojai = [
+    ["Timis", "Thompson", 1986, "Surinkejas"],
+    ["Ona", "Aibe", 1962, "Meistre"],
+    ["Rokas", "Maksis", 1999, "Sales darbuotojas"]
+];
 
-// for(var i = 0; i < 50; i++){
-//     everyother[i] = 1;
-//
-// }
-//
-// for(var i = 1; i < 50; i += 2){
-//     everyother[i] = 3;
-// }
-//
-// console.log(everyother);
-everyother[0] = 1;
-for (var i = 1; i < 50; i++) {
-    if(everyother[i-1] == 1){
-        everyother[i] = 3;
+darbuotojai[0][3] = "Direktorius";
+darbuotojai[1][3] = "Pavaduotoja";
+darbuotojai[2][3] = "Slavejas";
+
+console.log(darbuotojai);
+for (var i = 0; i < darbuotojai.length; i++) {
+    for (var k = 0; k < darbuotojai[i].length; k++) {
+        var info = (darbuotojai[i][k]);
+        console.log(info);
     }
-    else{
-        everyother[i] = 1;
-    }
-
 }
 
-console.log(everyother);
-
-console.log(window.innerHeight + " " + window.innerWidth);
-console.log(screen.width);
-console.log(screen.colorDepth);
-console.log(screen.pixelDepth);
-console.log(navigator.appVersion);
-
-var personAge = 25;
-
-if(personAge < 14){
-    console.log("Pirk varle");
-}
-else if (personAge < 18) {
-    console.log("Pirk Nokia");
-}
-else if (personAge < 24) {
-    console.log("Eik i Teslos bara");
-}
-else if (personAge < 65) {
-    console.log("Ziurek 24 valandas");
-}
-
-if (personAge >= 65) {
-    console.log("Eik i sokius Senoli");
-} else if (personAge > 14 && personAge <= 65) {
-    console.log("Ziurek Simpsonus");
-}
+// ==============================================
