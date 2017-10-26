@@ -1,0 +1,104 @@
+
+/*Global*/
+.footer-margin-bottom {
+  margin-bottom: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.col-ms-12 {
+  display: flex;
+  justify-content: center;
+}
+
+
+body {
+  background-color: #f4feff;
+}
+
+ul {
+  margin-top: 16px;
+  padding-left: 0;
+}
+
+ li {
+  display: inline;
+  padding-left:  ;
+  color: #ffffff;
+}
+.product-list a {  /* Detail.html "Produktai"*/
+  display: block;
+  font-style: oblique;
+  color: orange;
+  line-height: 45px;
+  font-size: 24px;
+
+}
+.current {
+  font-weight: bold;
+
+}
+
+.detail-paragraph {  /* Detail.html "Produktai"*/
+  margin-left: 100px;
+}
+
+
+
+ h5, .font-footer {
+  font-family: 'Nosifer', cursive;
+  color: yellow;
+}
+.font-1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.background-blue {
+background-color: #92bdc7;
+}
+.bg3 {
+  background-color: #f4feff;
+}
+.wrapper {
+  box-shadow: 5px 0px 5px 5px rgba(72,94,116,0.5);
+}
+
+}
+.aukstis-40 {
+  min-height: 40px;
+}
+.aukstis-70{
+  min-height: 70px;
+}
+.aukstis-300 {
+  height: 400px;
+}
+.important-text {
+  text-align: center;
+}
+.area-mr {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.mr-100 {
+  margin-top: 100px;
+}
+.mr-50 {
+  margin-top: 40px;
+}
+.mr-20 {
+  margin-top: 20px;
+}
+.mr-top-16 {
+  margin-top: 10px; /* searcho mygtuko marginas*/
+}
+.pd-left-0 {
+  padding-left: 0;
+}
+.pd-right-0 {
+  padding-right:  0;
+}
+.mr-left-25 {
+  margin-left: 25%; /* 4korteles apie biciu produkcija */
+}
