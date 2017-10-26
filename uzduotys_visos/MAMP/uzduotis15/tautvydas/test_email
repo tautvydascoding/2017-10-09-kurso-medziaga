@@ -1,0 +1,19 @@
+        
+        <?php 
+        
+        $to - ‘aaa@gmail.com';
+
+$subject - 'test email';
+
+$message - 'test email';
+
+$headers = "From: The Sender Name <aaaa@gmail.com>\r\n";
+$headers .= "Repty To: replyto@aaaa.com\r\n";
+$headers .= "Content-type: text/html\r\n";
+
+
+mail($to, $subject, $message, $headers);
+        
+        
+        
+        ?>
