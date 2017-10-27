@@ -36,4 +36,4 @@ session_start();
   
   //------------kad lietuviu veiktu------
   // Change character set to utf8
-mysqli_set_charset($connection,"utf8");
+mysqli_set_charset($connection,"utf8");Ç

@@ -19,7 +19,7 @@ show databases;
    INSERT INTO patients  VALUES  ('', 'Ari', 'Amon');
    
    // !!!
-   RENAME TABLE patients TO patients;   						  // pervadins lentele
+   RENAME TABLE paccients TO patients;   						  // pervadins lentele
    ALTER TABLE `doctors` CHANGE `pacient_id` `patient_id` int(6); // pervadins stulpeli
    ALTER TABLE `patients` CHANGE `patient_id` `doctor_id` int(6); 
    ALTER TABLE doctors DROP COLUMN patient_id;   // istrins stulpeli
