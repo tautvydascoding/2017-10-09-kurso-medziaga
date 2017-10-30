@@ -1,62 +1,24 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
-    <title>Detail</title>
-    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <!-- pirma headerio dalis -->
-        <div class="row aukstis-40 bg-info">
-          <div class="col-md-2">
+<?php
 
-            <h5><i class="fa fa-hashtag" aria-hidden="true"></i> Niam Niam</h5>
+require './header3.php';
 
-          </div>
-
-          <nav class=" col-md-8">
-            <div class=" text-light">
-              <ul class="d-flex justify-content-around">
-                <li><a class="font-footer" href="index.html">Pradžia</a></li>
-                <li><a class="font-footer" href="check.html"> Bičių Produktai</a></li>
-                <li><a class="font-footer" href="about">Naujienos</a></li>
-                <li><a class="font-footer" href="contact.html">Kontaktai</a></li>
-              </ul>
-            </div>
-          </nav>
-
-          <div class="col-md-2 ">
-            <div class="input-group mr-top-16">
-              <span class="input-group-btn ">
-            <button class="btn btn-info" type="button">Go!</button>
-          </span>
-              <input type="text" class="form-control btn-pd " placeholder="Search for..." aria-label="Search for...">
-            </div>
-          </div>
-        </div>
-      </header>
+?>
       <hr>
       <main class="row">
         <aside class="col-md-3">
           <div class="product-list font-1">
-            <h3>Produktai</h3>
+            <h3 class="font-1 pd-left-40">Produktai</h3>
             <ul>
-              <li><a class="current" href="detail1.html">Medus</a></li>
-              <li><a href="detail2.html">Korys su medumi</a></li>
-              <li><a href="detail3.html">Bičių duonelė</a></li>
-              <li><a href="detail4.html">Pikis</a></li>
+              <li><a class="current" href="detail1.php">Medus</a></li>
+              <li><a href="detail2.php">Korys su medumi</a></li>
+              <li><a href="detail3.php">Bičių duonelė</a></li>
+              <li><a href="detail4.php">Pikis</a></li>
             </ul>
           </div>
         </aside>
         <section class="col-md-9">
-          <article class="detail-paragraph font-1">
-            <h2><i class="fa fa-book" aria-hidden="true"></i> Medus</h2>
+          <article class="detail-paragraph font-2">
+            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Medus</h2>
             <p><strong>Medaus rūšys</strong></p>
             <p><em><strong>Liepų medus</strong></em> – šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms (sloga, angina, faringitas, laringitas, bronchitas), kepenų bei inkstų ligoms, pūliuojančioms žaizdoms gydyti.</p>
             <p><em><strong>Aviečių medus</strong></em> – šviesios spalvos, malonaus, bet stiproko kvapo. Vartojamas gydyti peršalimo ligoms.</p>
@@ -76,26 +38,8 @@
 
       </main>
 
-      <footer class="row bg-info mr-50 aukstis-70 d-flex align-items-center">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-6 d-flex justify-content-center  ">
-          <p class="font-footer footer-margin-bottom">Niam Niam 2017 &copy Copyright </p>
-        </div>
-        <div class="col-md-1">
-          <img src="./img/f1.png" alt="fb">
-        </div>
-        <div class="col-md-1">
-          <img src="./img/f2.png" alt="tweet">
-        </div>
-        <div class="col-md-1">
-          <img src="./img/f3.png" alt="Yahoo">
-        </div>
-      </footer>
+      <?php
 
+      require './footer.php';
 
-
-    </div>
-
-  </body>
-</html>
+      ?>

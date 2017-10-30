@@ -1,0 +1,50 @@
+// paskaitoje.
+
+CREATE TABLE doctor (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+  name varchar(25),
+  lname varchar(30));
+
+    INSERT INTO doctors VALUES ('5', 'Pietka', 'Leo');
+    INSERT INTO doctors VALUES ('6', 'maikas', 'martis');
+    INSERT INTO doctors VALUES ('', 'Ona', 'Onaite');
+
+    CREATE TABLE patients (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+      name varchar(25),
+      lname varchar(30),
+      doctor_id INT(6));
+
+      INSERT INTO patients VALUES ('', 'Mart', 'Jonson', '2');
+      INSERT INTO patients VALUES ('', 'Tom', 'Eloe', '2');
+      INSERT INTO patients VALUES ('', 'Co', 'Nano', '0');
+
+      CREATE TABLE images (
+      id INT(6) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(25),
+        patienst_id INT(6));
+
+        INSERT INTO images VALUES ('', 'foto1.jpg', 1);
+        INSERT INTO images VALUES ('', '2.png', 2);
+        INSERT INTO images VALUES ('', '33.gif', 1);
+
+        UPDATE patients
+        SET doctor_id = 1
+        WHERE id = 3;
+        INSERT INTO patients VALUES ('7', 'Rokas', 'Pikas', 1);
+        INSERT INTO patients VALUES ('8', 'Tim', 'Ramdaras', 5);
+        INSERT INTO patients VALUES ('9', 'Tom', 'Baltas', 6);
+
+UPDATE patients
+SET id
+
+
+        DELETE FROM patients
+        WHERE id=4;
+
+        UPDATE patients
+        SET name = 'Paul', lname ='Paulauskis', doctor_id = 3
+        WHERE id = 5;
+        UPDATE patients
+        SET name = 'Tom', lname ='Tironas', doctor_id = 3
+        WHERE id = 6;
