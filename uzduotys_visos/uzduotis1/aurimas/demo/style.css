@@ -1,0 +1,399 @@
+body {
+    background-color: #1B1B1B;
+    height: 100%;
+}
+
+/*==========================Header===============================*/
+ul {
+    padding: 30px 0;
+}
+
+nav a {
+    color: #717171;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+a:hover {
+    color: #F6F2FF;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.4;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+/*==========================Main=================================*/
+h1 {
+    position: absolute;
+    bottom: 45%;
+    right: 34%;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.karusele img, video {
+    padding: 0;
+    position: relative;
+    max-height: 80vh;
+}
+
+.karuseles-mygtukai {
+    max-height: 70%;
+}
+
+.karuseles-ikonos {
+    margin-top: 200px;
+}
+
+aside img {
+    max-height: 25px;
+    margin: 20px;
+}
+
+.nuorodos {
+    margin-top: 210px;
+}
+
+h6 {
+    background-color: hsla(47, 60%, 92%, 0.7);
+    color: #717171;
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
+}
+
+main {
+    margin-top: 90px;
+}
+
+.krastovaizdis-tekstas span, .krastovaizdis-tekstas p {
+    color: #191919;
+}
+
+.krastovaizdis-tekstas {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.korta p {
+    font-size: 13px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+}
+
+.korta h4 {
+    font-size: 16px;
+    padding: 5px 0px 0px 5px;
+}
+
+.kortu-footer p {
+    color: #1B1B1B;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.kortu-footer {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.vartotojo-inputas, .formos-kontrole {
+    margin-bottom: 10px;
+}
+
+#eile-video iframe {
+    max-width: 90%;
+    padding-bottom: 7%;
+}
+
+#eile-ikelti-istorija {
+    padding: 0;
+    padding-left: 2%;
+}
+
+#eile-lankytinos-vietos img
+{
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 15%;
+}
+
+#eile-karusele {
+    margin-bottom: 7%;
+}
+
+#eile-istorija {
+    margin-bottom: 4%;
+}
+
+#istorija-isplesta p {
+    padding-bottom: 12%;
+}
+
+#eile-zemelapis iframe {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    margin-top: 5%
+}
+
+#eile-lankytoju-patirtis {
+    padding: 2% 2% 2% 2%;
+}
+
+#eile-lankytoju-patirtis-header h2 {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#eile-video, #eile-lankytinos-vietos, #eile-zemelapis {
+    background-color: #FFFFFF;
+}
+
+#logo {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ikelimo-forma {
+    min-height: 50vh;
+}
+
+#eile-lankytoju-patirtis-header h4, nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.pagrindinis-pavadinimas h3 {
+    position: absolute;
+    bottom: 40%;
+    right: 45%;
+    font-size: 1.0rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.lankytinos-vietos a {
+    color: #F6F2FF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footeris h4 {
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+#mygtukas-upload {
+    color: #1B1B1B;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+/*==========================Footer===============================*/
+footer img {
+    opacity: 0.1;
+    min-width: 100%;
+    max-height: 200px;
+}
+
+.footeris a {
+    display: inline-block;
+}
+
+
+.idealus-centravimas {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.pilnas-plotis {
+    width: 100%;
+}
+
+.juodas-fonas {
+    background-color: #1B1B1B;
+}
+
+.baltas-fontas {
+    color: #F6F2FF;
+}
+
+.antrasciu-tekstas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.pagrindinis-tekstas {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*======KONTAKTAI, PRISIDETI, DAUGIAU INFO, CSS============*/
+
+#kontaktai-main button {
+max-height: 38px;
+}
+
+#kontaktai-main img {
+    height: 25px;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+#kontaktu-antraste h3 {
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+#kontaktai-body, #prisideti-body, #daugiau-info-body {
+    max-height: 100vh;
+}
+
+#daugiau-info-main {
+    min-height: 100%;
+}
+
+.kontaktai-ul, .prisideti-ul, .daugiau-info-ul {
+    margin-left: 0;
+}
+
+#daugiau-info-html {
+    min-height: 100%;
+}
+
+#daugiau-info-main p, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+#daugiau-info-main p {
+    margin-bottom: 39px;
+}
+
+#daugiau-info-main div {
+    padding-top: 100px;
+    padding-bottom: 22px;
+}
+
+#eile-prisideti p {
+    margin-top: 5rem;
+}
+
+#eile-footer img {
+    overflow: hidden;
+}
+
+/*========gallery css==========*/
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-absolute {
+    position: relative;
+}
+#gallery-body {
+    background-color: #000;
+
+}
+
+.viewportas100 {
+    height: 100vh;
+}
+
+.straipsnis {
+
+}
+
+img {
+        width: 100%;
+}
+
+.col-straipsnis {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.col-foto {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+/*.inputas {
+    margin-bottom: 4px;
+}*/
+
+/*.nulis-padding {
+    padding: 0;
+}*/
+
+/*.slepti-overflow {
+    overflow: hidden;
+}*/
+
+
+/*================card-slider css===============*/
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 200px;
+}
