@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <title>Galerija</title>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body id="gallery-body">
@@ -14,7 +14,7 @@
 
             <div id="eile-parnidzio-kopa">
                 <div class="juodas-fonas baltas-fontas col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">parnidžio kopa</h4>
                         <p class="pagrindinis-tekstas">
                             Parnidžio kopa – pustoma smėlio kopa Nidos pietuose, Kuršių Nerijoje<br>
@@ -36,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="nulis-padding slepti-overflow col-foto">
+                <div class="nulis-padding slepti-overflow col-foto parnidis">
                     <img class="img-fluid" src="./images/tomas1.jpg" alt="parnidzio kopa">
                     <img class="img-fluid" src="./images/tomas2.jpg" alt="parnidzio kopa">
                     <img class="img-fluid" src="./images/tomas3.jpg" alt="parnidzio kopa">
