@@ -1,3 +1,5 @@
+// uzduotis 1
+// sukurti f-ja getUser($id)
 // uzduotis 2
 // sukurti f-ja createUser($uname, $password, $elpastas, $teises)
 // uzduotis 3
