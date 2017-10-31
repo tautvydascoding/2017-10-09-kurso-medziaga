@@ -1,25 +1,24 @@
 <?php
 
-require './header.php';
+require './header4.php';
 
 ?>
     <!--  svarbus tekstas -->
-    <hr>
+
     <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-1 mr-50">
-        <img  src="./img/bite4.jpg" alt="bite">
+      <div class="col-md-3">
       </div>
 
+
       <div class=" col-md-6 important-text mr-100">
+        <img class="d-flex justify-content-start rotate" src="./img/bite4.jpg" alt="bite">
         <h3 class="font-1"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Klauskite arba palikite atsiliepimą</h3>
       </div>
 
       <div class="col-md-3">
       </div>
     </div>
-    <hr>
+    <hr class="style13">
     <!-- adresas, tel numris, el pastas -->
     <div class="row mr-100">
       <div class="col-md-4">
@@ -35,7 +34,7 @@ require './header.php';
         <p class="text-center font-1">puikusmedus@niamniam.lt</p>
       </div>
     </div>
-    <hr>
+    <hr class="style13">
     <!-- kontaktu lengele -->
     <div class="row mr-50 ">
       <div class="col-md-3">
@@ -110,37 +109,9 @@ require './header.php';
 
       </div>
 
-
-
-
-
-
     <!-- Footer -->
-    <footer class="row bg-info mr-50 aukstis-70 d-flex align-items-center">
-      <div class="col-md-3">
-      </div>
-      <div class="col-md-6 d-flex justify-content-center  ">
-        <p class="font-footer footer-margin-bottom">Niam Niam 2017 &copy Copyright </p>
-      </div>
-      <div class="col-md-1">
-        <img src="./img/f1.png" alt="fb">
-      </div>
-      <div class="col-md-1">
-        <img src="./img/f2.png" alt="tweet">
-      </div>
-      <div class="col-md-1">
-        <img src="./img/f3.png" alt="Yahoo">
-      </div>
-    </footer>
+    <?php
 
-  </div>
+    require './footer.php';
 
-
-
-  <script type="text/javascript" src="./libs/jquery-3.2.1.min.js">
-  </script>
-  <script type="text/javascript" src="./libs/bootstrap/js/bootstrap.min.js">
-  </script>
-</body>
-/
-</html>
+    ?>

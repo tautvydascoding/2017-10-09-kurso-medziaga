@@ -401,8 +401,9 @@ img {
 
 
 .fixed {
-    position: absolute;
+    position: fixed;
     top:0;
     width:50vw;
     padding-top:5vh;
+    transition:0.3;
 }

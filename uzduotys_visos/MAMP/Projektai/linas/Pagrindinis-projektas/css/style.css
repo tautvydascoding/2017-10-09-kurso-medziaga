@@ -3,6 +3,24 @@
 .footer-margin-bottom {
   margin-bottom: 0;
 }
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.rotate:hover{
+        -webkit-transform: rotateZ(30deg);
+        -ms-transform: rotateZ(30deg);
+        transform: rotateZ(30deg);
+}
+.threed:hover{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
 
 a:hover{
   text-decoration: none;
@@ -14,12 +32,7 @@ a:hover{
 
 
 body {
-  background-color: #f4feff;
-}
-
-ul {
-  margin-top: 16px;
-  padding-left: 0;
+  background-color: #ffffff;
 }
 
  li {
@@ -30,7 +43,7 @@ ul {
 .product-list a {  /* Detail.html "Produktai"*/
   display: block;
   font-style: oblique;
-  color: orange;
+  color: #b8821d;
   line-height: 45px;
   font-size: 24px;
 
@@ -44,13 +57,24 @@ ul {
   margin-left: 100px;
 }
 
+.navbar-light .navbar-nav .nav-link { /* meniu spalvos*/
+  color: rgba(236, 221, 10, 0.88);
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: rgba(236, 221, 10, 0.99);
+}
+
 
 
  h5, .font-footer {
   font-family: 'Nosifer', cursive;
-  color: yellow;
+  color: rgba(236, 221, 10, 0.99);
 }
 .font-1 {
+  font-family: 'Anton', sans-serif;
+  color: #b8821d;
+}
+.font-2 {
   font-family: 'Anton', sans-serif;
 }
 
@@ -82,7 +106,7 @@ background-color: #92bdc7;
   margin-bottom: 10px;
 }
 .mr-100 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .mr-50 {
   margin-top: 40px;
@@ -99,6 +123,15 @@ background-color: #92bdc7;
 .pd-right-0 {
   padding-right:  0;
 }
+.pd-left-40 {
+  padding-left: 40px;
+}
 .mr-left-25 {
   margin-left: 25%; /* 4korteles apie biciu produkcija */
+}
+@media (max-width: 767px){
+  .detail-paragraph{
+    margin-left: 20px;
+  }
+
 }
