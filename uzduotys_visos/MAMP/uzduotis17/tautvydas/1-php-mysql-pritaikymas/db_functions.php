@@ -134,6 +134,6 @@ function updateUser($nr, $vardas, $slaptazodis, $elPastas, $rights) {
 
 
 // !!
-mysqli_close(getConnection());
+// mysqli_close(getConnection());
 
    //
