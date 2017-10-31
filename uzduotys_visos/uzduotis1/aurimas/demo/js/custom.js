@@ -4,13 +4,15 @@ $(window).on('load', function(){
         parnidisFoto += $('.parnidis img')[i].clientHeight;
     }
   var scrollPos = parnidisFoto - $(window)[0].innerHeight;
-  console.log(scrollPos);
 
   $(window).scroll(function() {
-    if ($(document).scrollTop() > 0 && $(document).scrollTop()< scrollPos) {
-      $(".fixed").css('top', $(document).scrollTop());
-    } else {
-      $(".fixed").removeClass("position-fixed");
+    if ($(document).scrollTop() <= scrollPos) {
+        $(".fixed").css('top', "0");
+    } else if ($(document).scrollTop() > scrollPos) {
+      $(".fixed").css('top', scrollPos-$(document).scrollTop());
     }
+    
   });
+
+
 });
