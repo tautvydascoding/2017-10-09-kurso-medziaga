@@ -1,0 +1,34 @@
+// uzduotis 1:
+// A) : istrinti gydytoja "Paul"
+// B) : (po daktaro atleidimo) visu pacientu, kuriu daktaras buvo "Paul" -  daktarus pakeisti i "3"
+// C) :  Pakeisti paciento "Paul Paulauskas" varda i "Paulius"
+// D) :  visu pacientu, kurius vardas prasideda "T" -  daktarus pakeisti i "1"
+// E) :  gauti daktaro pavarde paciento, kurio vardas yra "Tom". Kai zinote TIK paciento varda!!!
+
+
+
+
+// uzduotis 2 - KOMANDINE! ( PO 2x)
+
+// 0) sukurti DB "savaite4"
+// 1) use testuotju;  // pasirinkti lentele su kuria dirbsite
+// 2) sukurti lentele "users" su stulpeliais:
+// "id", "username", "pass", "email", "rights"
+// 2.2) sukurti pora nariu
+
+// 3) sukurti lentele "articles" su stulpeliais:
+// "id", "title", "content", "date", "user_id"
+// 3.2) sukurti pora straipsniu
+
+
+
+
+
+
+
+
+
+
+
+
+//

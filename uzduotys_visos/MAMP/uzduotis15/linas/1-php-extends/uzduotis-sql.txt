@@ -1,6 +1,7 @@
 // uzduotis 1:
 // A) : istrinti gydytoja "Paul"
 // B) : (po daktaro atleidimo) visu pacientu, kuriu daktaras buvo "Paul" -  daktarus pakeisti i "3"
+<<<<<<< HEAD
 // C) :  Pakeisti paciento "Paul Palauskio" varda i "Tomas"
 // D) :  visu pacientu, kurius vardas prasideda "T" -  daktarus pakeisti i "1"
 // E) :  gauti paciento "Tom" daktaro pavarde. Kai zinote TIK paciento varda!!!
@@ -25,6 +26,14 @@ WHERE name LIKE 'T%';
  SELECT doctors.lname FROM doctors
  INNER JOIN patients ON doctors.id = patients.doctor_id
  WHERE patients.name = 'Tomas';
+=======
+// C) :  Pakeisti paciento "Paul Paulauskas" varda i "Paulius"
+// D) :  visu pacientu, kurius vardas prasideda "T" -  daktarus pakeisti i "1"
+// E) :  gauti daktaro pavarde paciento, kurio vardas yra "Tom". Kai zinote TIK paciento varda!!!
+
+
+
+>>>>>>> dc61ac2e5a8165c1251247af56abc87d60a6d902
 
 
 // uzduotis 2 - KOMANDINE! ( PO 2x)
