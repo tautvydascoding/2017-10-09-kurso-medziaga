@@ -11,29 +11,28 @@
     include('./db_functions.php');
 
     $all_users = getUsers();
-    // paiimame pirma vartotoja is viso obj
-    // $temp_user = mysqli_fetch_assoc($all_users);
-    // echo "<h2>Varototojo nr.:" . $temp_user["id"] . "  (". $temp_user["rights"] . ") </h2>";
-    //
-    // $temp_user = mysqli_fetch_assoc($all_users);
-    // echo "<h2>Varototojo nr.:" . $temp_user["id"] . "  (". $temp_user["rights"] . ") </h2>";
-    //
-    // $temp_user = mysqli_fetch_assoc($all_users);
-    // if ( $temp_user != NULL ) {
-    //     echo "<h2>Varototojo nr.:" . $temp_user["id"] . "  (". $temp_user["rights"] . ") </h2>";
-    // }
+
+
+    // print_r($GLOBALS);
 
     // ARBA gudriau su while
    $temp_user = mysqli_fetch_assoc($all_users);
-   if ( $temp_user != NULL ) {
-    while ($temp_user) {
-        echo "<h2>Varototojo nr.:" . $temp_user["id"] . "  (". $temp_user["rights"] . ") </h2>";
-        echo "<h3>Vardas " . $temp_user["username"] . " slaptazodis:  **** </h3>";
-        echo "<h3> Email: " .  $temp_user["email"]  . " </h3>";
+   if ( $temp_user != NULL ) :
+        while ($temp_user) :
+            // <a href='http://localhost:8888/uzduotis17/tautvydas/2-php-mysql-pritaikymas-home/'
+            // $kelias = $_SERVER['REQUEST_URI'];
+            // echo "kelias: $kelias <br />";
+            ?>
 
-        $temp_user = mysqli_fetch_assoc($all_users);
-    }
-}
+            <a href="user.php?id=  <?php  echo $temp_user["id"]; ?> ">
+                    <?php   echo $temp_user["username"]; ?>
+             </a>
+             <br />
+
+            <?php
+            $temp_user = mysqli_fetch_assoc($all_users);
+        endwhile;
+    endif;
 
 
 
