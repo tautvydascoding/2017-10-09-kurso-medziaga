@@ -3,7 +3,27 @@
 // B) : (po daktaro atleidimo) visu pacientu, kuriu daktaras buvo "Paul" -  daktarus pakeisti i "3"
 // C) :  Pakeisti paciento "Paul Paulauskas" varda i "Paulius"
 // D) :  visu pacientu, kurius vardas prasideda "T" -  daktarus pakeisti i "1"
+D2 vardus is T ir P
 // E) :  gauti daktaro pavarde paciento, kurio vardas yra "Tom". Kai zinote TIK paciento varda!!!
+
+
+DELETE FROM doctors WHERE name='Paul';
+SELECT * FROM doctors;
+
+SELECT * FROM patients;
+UPDATE patients SET doctor_id=3 WHERE doctor_id=2;
+
+UPDATE patients SET name='Paulius' WHERE name="Paul" AND lname='Paulauskas';
+D)
+UPDATE patients SET doctor_id = 1 WHERE name LIKE "T%";
+E)
+SELECT doctors.lname FROM doctors, patients
+WHERE doctors.id = patients.doctor_id AND patients.name='Tom';
+
+E) kitaip
+SELECT doctors.lname FROM doctors
+INNER JOIN patients ON doctors.id=patients.doctor_id
+WHERE patients.name='Tom';
 
 
 
@@ -11,7 +31,7 @@
 // uzduotis 2 - KOMANDINE! ( PO 2x)
 
 // 0) sukurti DB "savaite4"
-// 1) use testuotju;  // pasirinkti lentele su kuria dirbsite
+// 1) use savaite4;             // pasirinkti lentele su kuria dirbsite
 // 2) sukurti lentele "users" su stulpeliais:
 // "id", "username", "pass", "email", "rights"
 // 2.2) sukurti pora nariu
