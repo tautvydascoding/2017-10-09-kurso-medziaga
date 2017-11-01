@@ -1,0 +1,71 @@
+CREATE TABLE images (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+  name varchar(25));
+
+  INSERT INTO articles VALUES ('', 'Medus', '<article class="detail-paragraph font-2">
+    <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Medus</h2>
+    <p><strong>Medaus rūšys</strong></p>
+    <p><em><strong>Liepų medus</strong></em> – šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms (sloga, angina, faringitas, laringitas, bronchitas), kepenų bei inkstų ligoms, pūliuojančioms žaizdoms gydyti.</p>
+    <p><em><strong>Aviečių medus</strong></em> – šviesios spalvos, malonaus, bet stiproko kvapo. Vartojamas gydyti peršalimo ligoms.</p>
+    <p><em><strong>Kiaulpienių medus</strong></em> – aukso spalvos, kartoko skonio, labai kvapnus. Rekomenduojamas nuo skausmo, kvėpavimo takų uždegimo, padidintam skrandžio sulčių rūgštingumui mažinti.</p>
+    <p><em><strong>Rapsų medus</strong></em> – baltas arba šviesiai gelsvas, silpno malonaus kvapo, truputį kartoko skonio. Vartojamas padidintam skrandžio sulčių rūgštingumui mažinti, kepenų ligoms gydyti.</p>
+    <p><em><strong>Dobilų medus</strong></em> – šviesiai gelsvas, beveik baltas, švelnaus malonaus skonio. Vartojamas sumažinto skrandžio sulčių rūgštingumui didinti, kepenų ligoms gydyti.</p>
+    <p><em><strong>Viržių medus</strong></em> – tamsiai geltonas su rusvu atspalviu, stipraus, panašaus į viržių žiedų kvapą, kartoko skonio. Vartojamas inkstų, šlapimo pūslės, prostatos ligoms gydyti.</p>
+    <p><em><strong>Grikių medus</strong></em> – tamsus, rausvas arba beveik rudas, aštraus skonio bei kvapo. Jis turi daugiau geležies ir baltymų, todėl vartojamas nuo mažakraujystės, švelnina vaikų brendimo metu atsirandančius augimo skausmus, ramina nervų sistemą, stiprina organizmą.</p>
+    <p><em><strong>Pievų medus</strong></em> yra poliflorinis, t.y. surinktas iš daugelio augalų žiedų, malonaus skonio, geltonas arba gelsvai rusvos spalvos. Jame yra daug aromatinių medžiagų, nemažai B grupės ir C vitaminų. Jis vertingas nusilpusiems ir peršalimo ligoms gydyti.</p>
+    <p><em><strong>Lipčiaus medus</strong></em>, surinktas iš amarų išskyrų, skiriasi nuo žiedų medaus. Jame daugiau dekstrinų, mineralinių medžiagų, sacharozės, mažiau invertuoto cukraus, negu nektaro meduje. Ypač daug lipčiuje yra šarminių metalų – kalio ir natrio druskų.<br/>
+      Kadangi lipčiaus meduje mažiau vandens ir daugiau baltymų, dekstrinų, jis 2-3 kartus tirštesnis už žiedų medų. Bičiųžiemos maistui lipčiaus medus netinka, o žmogui jis labai naudingas.</p>
+      <p>Sveikatai stiprinti reikia naudoti tik natūralų kokybišką medų. Patartina suvartoti 50 -100 g medaus per parą ,šį kiekį suvalgant per 3 -4 kartus.Geriausia medų ištirpinti šiltame virintame vandenyje, tuomet organizmas lengviau jį įsisavina.</p>
+
+  </article>
+');
+  INSERT INTO articles VALUES ('', 'Korys', '<article class="detail-paragraph font-2">
+    <h2 class="font-1"> <i class="fa fa-book" aria-hidden="true"></i> Korys su medumi</h2>
+    <p><strong>Medus su koriu</strong></p>
+    <p>Sirgdami sloga, sinusitu, sinusų uždegimu, 4–6 kartus per dieną čiulpkite medų su koriu. Sunkiai susirgę – net 20 kartų per dieną. Korį reikia čiulpti ir kramtyti. Kai medų iščiulpiame, korį reikia išspjauti. Medus su koriais puikiai tinka aterosklerozės profilaktikai – kramtykite po arbatinį šaukštelį kartą ar du per dieną apie du mėnesius.</p>
+    <p>Medų reikėtų valgyti kamuojant nemigai, raumenų traukuliams naktimis, pablogėjus atminčiai. Jei dirbate įtemptą protinį darbą, jei esate vyresnio amžiaus žmogus ir pabudęs naktį nebegalite užmigti, suvalgykite 1–3 arbatinius šaukštelius (ar net valgomuosius šaukštus) medaus, užgerkite šiltu vandeniu ar šiltu pienu. Medus nervų sistemą ramina, bet neslopina.</p>
+
+
+  </article>
+');
+  INSERT INTO articles VALUES ('', 'Biciu duonele', '<article class="detail-paragraph font-2">
+              <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Bičių duonelė</h2>
+              <p><strong>Bičių duonelė</strong>– žiedadulkės bičių suneštos iš įvairiausių augalų sudėtos į korio akutę ir subrandintos.</p>
+              <p>Bitės neša į avilius ir meta į korių akeles. Aviliuose jaunesnės bitės priekiniais žandais žiedadulkių rutulėlius sutrupina ir galvomis gerai suspaudžia. Taip bitės dirba, kol žiedadulkėmis užlipdo du trečdalius akutės tūrio. Į tą pačią akutę dėdamos įvairių augalų žiedadulkes, bitės jų nerūšiuoja. Kai akutės pripildomos, bitės jų viršų užpila medumi, užlipdo vašku – tokį mišinį palieka subręsti.
+              </p>
+              <p>Veikiant įvairiems mikroorganizmams, fermentams, esant didelei drėgmei ir šilumai (34–36 °C), maždaug per dvi savaites iš mišinio susiformuoja bičių duonelė. Bitėms tai – pagrindinis baltymų, riebalų, angliavandenių, mikroelementų ir vitaminų šaltinis.</p>
+              <p>Duonele maitinami bičių perai, kuriems augant reikia labai daug baltyminės medžiagos. Daug duonelės bitės vartoja pieneliui, vaškui gaminti, tranams maitinti, nes ir jie be baltyminio maisto greitai nusilpsta, o tokius tranus bitės išmeta lauk.</p>
+              <p>Nustatyta, kad bičių šeima per metus suvartoja apie 30–40 kg duonelės.</p>
+              <p>Bičių duonelės privalumai.<br>Dažnai kyla klausimas, koks produktas vertingesnis: žiedadulkės ar bičių duonelė? Kai kuriomis savybėmis bičių duonelė lenkia žiedadulkes. Pastarųjų metų tyrimais nustatyta, kad bičių duonelę lengviau įsisavina žmogaus organizmas. Šio konservuoto bičių produkto savybės laikui bėgant mažai kinta ir bičių duonelę galima ilgiau vartoti negu žiedadulkes. Biocheminiu požiūriu bičių duonelė, skirtingai negu žiedadulkės, turi mažiau baltymų (tik apie 20 proc.), žymiai daugiau angliavandenių (24-34 proc.) ir iki 1,5 proc. lipidų. Savo kaloringumu bičių duonelė prilygsta augalinės kilmės maisto produktams – miltams, ryžiams, žirniams. Iš daugelio mineralinių medžiagų bičių duonelėje daugiausia yra geležies, kobalto, fosforo ir kalcio. Aminorūgštys sudaro apie 15 proc. bičių duonelės sausųjų medžiagų. Bičių duonelės vitaminų sudėtis yra analogiška žiedadulkėms, tačiau bičių duonelėje yra didesnis vitamino K kiekis ir žymiai mažesnis vitamino E kiekis.
+              <br>Bičių duonelės biologiškai aktyvių medžiagų kiekis irgi skiriasi nuo žiedadulkių, nes bičių duonelėje gausu tokių fermentų kaip sacharazė, amilazė, katalazė, aminotransferazė ir adenozintrifosfatazė. Be to bičių duonelėje yra organinių rūgščių, kai kurių hormonų, pigmentų, o taip pat medžiagų, pasižyminčių antibiotinėmis savybėmis. Visuma tokių svarbių organizmo gyvybiniams procesams medžiagų ir sąlygoja ryškų biosti-muliuojantį bičių duonelės poveikį.
+              <br>Pastarųjų metų tyrimai parodė, kad bičių duonelė, skirtingai nuo medikamentų, neturi nepageidaujamo ar toksinio poveikio. Joje esantis mažas vitamino E ir estrogenų kiekis suteikia galimybę ją profilaktiškai vartoti įvairaus amžiaus žmonėms ir net vaikams. Alergijos atvejai bičių duonelei labai reti.
+              <br>Bičių duonelė rekomenduojama asmenims, sergantiems mažakraujyste, hepatitu, cukriniu diabetu, virškinamojo trakto, ypač žarnyno (fermentiniai kolitai, enterokolitai, lėtiniai vidurių užkietėjimai) ligomis. K.Valiukienės ir bendraautorių atlikti tyrimai parodė, kad bičių duonelė gerina pagyvenusio amžiaus žmonių sveikatą, mažina cholesterolio kiekį kraujyje. Neseniai atlikti tyrimai įrodė, kad bičių duonelė sergantiems vyresnio amžiaus asmenims cukriniu diabetu ne tik sumažino cholesterolio kiekį kraujyje, bet ir sustiprino šių ligonių imuninę sistemą.
+              <br>Bičių duonelę profilaktiškai rekomenduojama vartoti po 10-15 g per dieną, o gydymo tikslais – po 20-30 g per dieną.
+              </p>
+            </article>');
+
+  INSERT INTO articles VALUES ('', 'Pikis', ' <article class="detail-paragraph font-2">
+              <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Pikis</h2>
+              <p><strong>Istoriniai duomenys</strong></p>
+              <p>Jau žiloje senovėje žmonės žinojo, kad bičių pikis gydo žaizdas, mažina skausmą ir tinimą, šalina blogą kvapą. Pirmieji bičių pikį gydymui pradėjo vartoti bitininkai, kurie pastebėjo, kad avilyje arba drevėje, kur gyvena bičių šeima, yra labai švaru. <br>Liaudies medicinoje bičių pikis dažniausiai vartojamas kaip išorinis, gana retai – kaip vidinis vaistas. Juo gydydavo votis, kitas pūlingas žaizdas, karpas, nuospaudas, nudegimus. Bičių pikiu aplipdyta drobe apvyniodavo skaudamus sąnarius. Nuo to skausmai sumažėdavo ar visai išnykdavo. Bičių pikiu taip pat gydydavo skrandžio opą, plaučių tuberkuliozę, tulžies pūslės ligas, paradantozę. Bičių pikis vartotas ne tik liaudies medicinoje, bet ir kitiems tikslams. Pavyzdžiui, Egipte pikį su medumi vartodavo mirusiems balzamuoti, pikio sakus – smuiko lakui, sodininkystėje – sodo tepalui gaminti.<br>Vašku, nektaru ir žiedadulkėmis, užklijuoja avilio plyšius, kad į jį nepatektų pašaliniai gyviai, pritvirtina korius. Jei vis dėlto tokie gyviai į avilį patenka, bitės juos sugelia ir apklijuoja pikiu -užbalzamuoja. Pikis bičių šeimai padeda avilyje išsaugoti švarą, apsaugo bičių šeimą nuo nuolat gresiančios išorinės infekcijos. Kai saulės spinduliai įšildo avilį, esantis avilyje bičių pikis išskiria lakiąsias eterines medžiagas, kurioms būdingos anti-mikrobinės savybės, todėl jos gerai dezinfekuoja avilį. Tai padeda bitėms apsisaugoti nuo invazinių ligų, o bitynui suteikia tam tikrą mikroklimatą.
+              </p>
+              <p><strong>Bičių pikio sudėtis</strong></p>
+              <p>Bičių pikis yra tamsiai pilka arba rusva tampri masė, turinti stiprų, bet malonų aromatą. 15 laipsnių temperatūroje pikis tampa tampriu ir kietu, o pašildytas iki 30 laipsnių – minkštu ir lipniu. Pikis blogai tirpsta karštame vandenyje, bet gerai spirite ir eteryje.
+              <br>Cheminiu požiūriu bičių pikis yra labai sudėtingas junginys. Jį sudaro įvairios aromatinės medžiagos (apie 55 proc.), vaškas (apie 30 proc.), eterinis aliejus (apie 10 proc.) ir žiedadulkės (apie 5 proc.). Nustatyta, kad daugiausia pikyje yra flavanoidų (apie 25 proc.). Tai sudėtingi eteriai, terpenai (bisabololas, pferostilbenas, fenolino trigliceroidai), organinės rūgštys (benzoinė, vanilinė ir kitos), vanilino ir izovanilino aldehidai, betulenas, betulenolas ir t.t. Pikyje taip pat yra daug įvairių mineralinių medžiagų: mangano, cinko, vario, nikelio, kobalto, kalcio, kalio, fosforo, sieros, natrio, geležies, magnio. Jų kiekiai nedideli ir būna į nuo pėdsakų iki 11,6 mkg/100 g. Vitaminų pikyje yra nedaug: Bp B2, B6, C, E, A, nikotininė ir pantoteno rūgštys. Pikyje yra nuo 8 iki 17 aminorūgščių. Iš jų svarbiausios – serinas, gliukolis, alaninas, triptofanas, leicinas, lizinas, histidinas, metioninas, valinas. Be to, pikyje yra sudėtingų riebalinių rūgščių, įvairių angliavandenilių, daug inhibitorių, antimikrobinių ir kitų biologiškai aktyvių medžiagų.
+              </p>
+              <p><strong>Ar bičių pikis nekenksmingas?</strong></p>
+              <p>Prieš kurį laiką mūsų respublikos populiarioje literatūroje buvo pareikšta mintis, kad bičių pikis – tai derva, turinti kancerogeninių savybių ir gali sukelti vėžį. Tačiau mokslinė literatūra šių minčių nepatvirtino. A.Derevič (Rumunija) atliko kruopščius eksperimentinius tyrimus su žiurkėmis. Joms buvo injekuotas bičių pikio tirpalas, ir po 6 mėn. morfologiškai ištirti jų vidaus organai. Nepastebėta jokių pakitimų, iš kurių būtų galima spręsti apie pikio kancerogeniškumą. Taip pat literatūroje nėra duomenų apie švino ir kitų sunkiųjų metalų kaupimąsi pikyje. S.Popravka, B.Ochotskis ir kiti mokslininkai, atlikę cheminius pikio tyrimus, švino arba visai nerado, arba rado jo tik nežymius pėdsakus. Tačiau bitininkams reikia laikytis atsargumo. Jau anksčiau buvo minėta, kad bitynai turi būti kuo mažiau užterštoje aplinkoje, neleistina laikyti juos arti asfaltuotų kelių ar magistralių.
+              <br>Aišku, bičių pikio teigiamų savybių nereikia pervertinti. Gydantis pikio preparatais, reikia laikytis gydytojo apiterapeuto nustatytų dozių (ypač vaikams). Bičių pikio kaip vidinio vaisto arba aerozolio nepatartina ruošti namų sąlygomis. Tiek išoriniam, tiek vidiniam vartojimui pikį ir jo preparatus gali skirti tik gydytojai.
+              </p>
+              <p><strong>Kada negalima vartoti bičių pikio?</strong></p>
+              <p>Nors mūsų turimomis žiniomis bičių pikio kenksmingumo nenustatyta, tačiau pastebėta, kad kai kurie žmonės yra jam jautrūs arba alergiški. Jį turi atsargiai vartoti sergantieji bronchine astma, egzema ar kitomis alerginėmis ligomis. Pastebėjus nuo bičių pikio alergines reakcijas, jo vartojimą reikia nutraukti.</p>
+              <p><strong>Bičių pikio ir jo preparatų laikymo sąlygos</strong></p>
+              <p>Surinktas bičių pikis, turi būti laikomas tamsioje, vėsioje gerai vėdinamoje patalpoje, plastmasiniuose maišeliuose. Spiritiniai ir aliejiniai pikio preparatai ir jų mišiniai su medumi turi būti sufasuoti į tamsius stiklo sandariai uždarytus indus. Tokiomis sąlygomis jie išlaiko optimalų savo aktyvumą iki dviejų metų.</p>
+
+            </article>');
+
+
+  CREATE TABLE articles (
+  id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    name varchar(25),
+    article text);

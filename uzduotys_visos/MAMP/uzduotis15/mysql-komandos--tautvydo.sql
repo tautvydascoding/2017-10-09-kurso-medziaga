@@ -8,12 +8,13 @@ show tables;
 SELECT USER, PASSWORD, password_expired FROM user;
 SELECT * FROM user;
 
- CREATE USER 'kazys'@'localhost' IDENTIFIED BY 'mypasswords';
- GRANT ALL PRIVILEGES ON * . * TO 'kazys'@'localhost' WITH GRANT OPTION;
+ CREATE USER 'tautvydas10'@'localhost' IDENTIFIED BY 'tratata';
+
+ GRANT ALL PRIVILEGES ON * . * TO 'tautvydas10'@'localhost' WITH GRANT OPTION;
 
 
- // username - pas kai kuriuos negali tureti skaiciu!!! 
- CREATE USER 'tautvydasDelete'@'localhost' IDENTIFIED BY 'tratata'; 
+ // username - pas kai kuriuos negali tureti skaiciu!!!
+ CREATE USER 'tautvydasDelete'@'localhost' IDENTIFIED BY 'tratata';
 GRANT ALL PRIVILEGES ON * . * TO 'tautvydasDelete'@'localhost' WITH GRANT OPTION;
 
  CREATE DATABASE  `ligonine4`;
@@ -56,7 +57,7 @@ CREATE TABLE IF NOT EXISTS img (
 	 name VARCHAR(60) not NULL,
 	 doctor_id INT(6) NOT NULL
 	 );
-	 
+
 
 
 // -------SQL komandos----------------------

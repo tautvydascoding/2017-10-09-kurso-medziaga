@@ -67,7 +67,7 @@
             fclose($duomenuFailas);
 
             echo "antros prekes kaina:". $visosPrekes[1][2] . " <br />";
-            
+
             foreach ($visosPrekes as $preke) {
                     echo "<h2>  " . $preke[0] . "</h2>";
                     echo "<h3>  " . $preke[1] . "</h3>";

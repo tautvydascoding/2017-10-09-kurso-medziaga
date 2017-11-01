@@ -1,4 +1,11 @@
 WIN
+einam MAMP/bin/mysql/bin
+randame mysql.exe ir ant jo spaudizma DPK -  Sernd To -> Desctop
+
+....exe -u root -p
+
+pasisitkrinti, pasileisti mysql.exe
+show databases;
 
 mysql.exe per properties pakeisti reiksme:
 C:\MAMP\bin\mysql\bin\mysql.exe -u root -p
@@ -12,7 +19,7 @@ sudo ln -s /Applications/MAMP/Library/bin/mysql /usr/bin/mysql
 mysql -uroot -proot
 
 
-// OR 
+// OR
 Start MAMP or MAMP PRO
 Start the server
 Open Terminal (Applications -> Utilities)
@@ -20,6 +27,3 @@ Type in: (one line)
 ?/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
 
 mysql -uroot -proot
-
-
- 

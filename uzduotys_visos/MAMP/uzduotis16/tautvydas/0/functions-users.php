@@ -30,7 +30,7 @@
    }
    // Change character set to utf8
    // ijungima lietuvyves
-   mysqli_set_charset($connection,"utf8"); 
+   mysqli_set_charset($connection,"utf8");
 
 
    function getConnection() {
