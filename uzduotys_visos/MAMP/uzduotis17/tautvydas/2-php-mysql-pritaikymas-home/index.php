@@ -24,9 +24,20 @@
             // echo "kelias: $kelias <br />";
             ?>
 
-            <a href="user.php?id=  <?php  echo $temp_user["id"]; ?> ">
+            <a href="user.php?numeris=  <?php  echo $temp_user["id"]; ?> ">
                     <?php   echo $temp_user["username"]; ?>
              </a>
+
+             <a href="delete_user.php?id=<?php echo $temp_user["id"]; ?>">
+                 <button>Delete user</button>
+             </a>
+ 
+
+            <!--
+            <a href="user.php?id=1 ">
+                    Tomas Molauskas
+             </a>
+            -->
              <br />
 
             <?php

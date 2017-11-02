@@ -12,9 +12,9 @@
          include('./db_functions.php');
 
          print_r($_GET);
- 
+
         // http://localhost:8888/uzduotis17/tautvydas/1-php-mysql-pritaikymas/user.php?id=2
-         $nr = $_GET['id'];
+         $nr = $_GET['numeris'];
          $vartotojas = getUser($nr);
 
          ?>

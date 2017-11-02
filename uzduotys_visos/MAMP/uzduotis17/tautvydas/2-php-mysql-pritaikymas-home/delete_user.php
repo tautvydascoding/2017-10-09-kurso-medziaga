@@ -10,7 +10,7 @@
 
             $id = $_GET['id'];
             deleteUser($id);
-            echo "vartotojas nr: $id istrintas <br />" ;  
+            echo "vartotojas nr: $id istrintas <br />" ;
         ?>
 
     </body>
