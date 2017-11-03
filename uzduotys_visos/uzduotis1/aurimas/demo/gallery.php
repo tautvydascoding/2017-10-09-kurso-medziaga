@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="juodas-fonas">
     <head>
         <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -36,7 +36,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="nulis-padding slepti-overflow col-foto parnidis">
+                <div class="nulis-padding col-foto parnidis">
                     <img class="img-fluid" src="./images/tomas1.jpg" alt="parnidzio kopa">
                     <img class="img-fluid" src="./images/tomas2.jpg" alt="parnidzio kopa">
                     <img class="img-fluid" src="./images/tomas3.jpg" alt="parnidzio kopa">
@@ -45,7 +45,7 @@
 
             <div id="eile-saules-laikrodis">
                 <div class="col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">saulės laikrodis</h4>
                         <p class="pagrindinis-tekstas">
                             Saulės laikrodžio projektą sukūrė architektas Ričardas Krištapavičius.<br>
@@ -71,7 +71,7 @@
 
             <div id="eile-mirusios-kopos">
                 <div class="juodas-fonas baltas-fontas col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">mirusios kopos</h4>
                         <p class="pagrindinis-tekstas">
                             Pilkosios arba Mirusios kopos – tai stiprių vėjų supustytos didelės smėlio<br>
@@ -93,7 +93,7 @@
 
             <div id="eile-raganu-kalnas">
                 <div class="col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">raganų kalnas</h4>
                         <p class="pagrindinis-tekstas">
                             Raganų kalno skulptūrų ekspozicijos (Jono kalno) šlaitai apaugę pušimis,<br>
@@ -121,7 +121,7 @@
 
             <div id="eile-kormoranu-kolonija">
                 <div class="juodas-fonas baltas-fontas col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">kormoranų kolonija</h4>
                         <p class="pagrindinis-tekstas">
                             Tik išvažiavus iš Juodkrantės Nidos link, dar nepakilus į statųjį Avino<br>
@@ -153,7 +153,7 @@
 
             <div id="eile-nidos-svyturys">
                 <div class="col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">nidos švyturys</h4>
                         <p class="pagrindinis-tekstas">
                             Pirmojo Nidos švyturio statyba buvo pradėta po Vokietijos suvienijimo<br>
@@ -183,7 +183,7 @@
 
             <div id="eile-vacekrugo-kalnas">
                 <div class="juodas-fonas baltas-fontas col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">vacekrugo kalnas</h4>
                         <p class="pagrindinis-tekstas">
                             Vecekrugo arba Senosios smuklės kopa – aukščiausia kopa<br>
@@ -209,7 +209,7 @@
 
             <div id="eile-gintaro-ilanka">
                 <div class="col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">gintaro įlanka</h4>
                         <p class="pagrindinis-tekstas">
                             Gintaro įlanka – nedidelė Kuršių marių įlankėlė šiaurinėje<br>
@@ -241,7 +241,7 @@
 
             <div id="eile-gyvenvietes">
                 <div class="juodas-fonas baltas-fontas col-straipsnis viewportas100">
-                    <div class="article straipsnis text-center">
+                    <div class="article straipsnis text-center fixed">
                         <h4 class="antrasciu-tekstas">gyvenvietės</h4>
                         <p class="pagrindinis-tekstas">
                             Pirmosios pastovios gyvenvietės šioje teritorijoje kūrėsi<br>
