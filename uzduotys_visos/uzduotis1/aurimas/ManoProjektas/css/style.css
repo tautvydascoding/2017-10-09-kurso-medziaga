@@ -335,10 +335,18 @@ max-height: 38px;
 
 .straipsnis {
     position: fixed;
-    left: 10%;
-    margin-top: 30px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
     /*top: 50%;
     transform: translateY(-50%);*/
+}
+
+.straipsnis p, .straipsnis h4 {
+    width:100%;
 }
 
 .inputas {
