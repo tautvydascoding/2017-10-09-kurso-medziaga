@@ -330,14 +330,15 @@ max-height: 38px;
 }
 
 .viewportas100 {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .straipsnis {
-    position: absolute;
+    position: fixed;
     left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: 30px;
+    /*top: 50%;
+    transform: translateY(-50%);*/
 }
 
 .inputas {
@@ -348,9 +349,9 @@ max-height: 38px;
     padding: 0;
 }
 
-.slepti-overflow {
+/*.slepti-overflow {
     overflow: scroll;
-}
+}*/
 
 /*================card-slider css===============*/
 
