@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+html body{height: 100%;
+width: 100%;}
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    overflow: hidden;
+}
+.hh633{height: 633px;}
+.heivh
+{max-height: 100vh;}
+.heivh20 {
+    max-height: 20vh;
+}
+.heivh75 {
+    max-height: 75vh;
+}
+
+#header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    background-color: #1f1e34;
+}
+
+.headnav {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hnavtxt {
+    color: #ffffff;
+}
+
+.hnavtxt:hover {
+    color: #000000;
+}
+
+.loginali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logintxt {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #668998;
+    font-size: 20px;
+    letter-spacing: 20px;
+}
+
+.logintxt:hover {
+    color: #00373b;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/*body*/
+
+#intro_video {
+    position: absolute;
+    z-index: 1;
+    max-width: 1440px;
+    height: 100%;
+}
+#pav2 {
+    position: absolute;
+    z-index: 1;
+    max-width: 1440px;
+    height: 100vh;
+    border: none;
+}
+.posrel {
+    position: relative;
+    z-index: 2;
+}
+.posab {
+    position: absolute;
+}
+
+
+/*bod kaire*/
+
+.hei100 {
+    height: 100px;
+}
+
+.hei200 {
+    height: 200px;
+
+}
+
+.hei300 {
+    height: 300px;
+}
+
+
+
+.hei500{
+    height: 500px;
+}
+.heiss {
+    height: 100%;
+}
+
+.kaires_rw {
+    z-index: 2;
+    position: relative;
+}
+
+.about h1 {
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px #00e8ff;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.about p {
+    text-align: right;
+    color: #fff;
+    padding-top: 15px;
+}
+
+
+/*mygtukas*/
+
+.buttn {
+    width: 130px;
+    height: 40px;
+    color: #00a894;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: none;
+    border-color: #00a894;
+}
+
+.buttnpos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*kaire baiges*/
+
+
+
+.ant_img_bg{position: absolute;
+z-index: 1;
+
+
+}
+.atr {
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: bolder;
+    text-shadow: none;
+    text-align: right;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+}
+#antro_tex p {
+    text-align: justify;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 30px;
+    opacity: 0.5;
+}
+.brandd{display: flex;
+justify-content: center;
+align-items: center;}
+.ali {align-items:  center;}
+.bg_whi{background-color: white;}
+.bg_bla{background-color: black;}
+.bggr {background-color: #939d99;}
+.loghome{
+    color: #029916;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#map {
+
+    /*width: 40%;*/
+}
+footer h3 {
+    text-transform: capitalize;
+}
+footer p {
+    text-transform: capitalize;
+}
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+textarea {resize: none;}
+form label {
+    color: #939d99;
+    letter-spacing: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+form .inp1 {width: 30%;}
+form .inp2 {width: 60%;}
+form .inp3 {width: 20%;}
+.iconsa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttnform {
+
+    height: 30px;
+    color: #939d99;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: none;
+    border-color:#939d99;
+    border:solid 2px;
+}
+/*galler*/
+.galleria-theme-classic { background: #fff;}
+.galleria-thumbnails-list {display: flex;
+    justify-content: center;}
+
+    .gallap {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: 1.5em;
+        color: #000;
+    }
+    .galhov:hover {
+        color: #3f8e63;
+        text-decoration: none;
+    }
+
+.gallerijos {text-align: center;
+text-transform: uppercase;
+font-weight: bolder;
+letter-spacing: 3em;}
+.background-image{
+    color:red;
+    background-color: blue;
+}
+
+/*full*/
+#fullpage {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#fullpage section { height: 100vh; }
+
+/*fullend*/
