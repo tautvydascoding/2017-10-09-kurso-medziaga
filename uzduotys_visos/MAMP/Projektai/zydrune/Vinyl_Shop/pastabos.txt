@@ -1,0 +1,79 @@
+//
+for ($i = 1; $i<3; $i++) {
+  $src = getImageSrc($i); ?>
+  <img src="vinyls/Rap, hip-hop/<?php echo $src['src'];?>" alt=""><?php
+  // echo $src['src'];
+}
+
+There was a career lecture going on in the school where I take the programming course that I've told you about. I'm going to share my impressions about it. Let's start with the lecturer. The guy seemed to be around 30 years old, super aproachable and cool person in general.
+
+if 
+  <div class="vinyl">
+    <img src="vinyls/Rap, hip-hop/<?php
+       $src = getImageSrc(2);
+       echo $src['src'];
+      ?>" alt="" id="vinyl">
+    <p><?php $artist = getVinyl(2); echo $artist['artist'] . " - " . $artist['name'];?></p>
+  </div>
+
+    <div class="vinyl">
+      <img src="vinyls/<?php $src = getImageSrc($i); echo $src['src'];?>" alt="" id="vinyl">
+      <p><?php $artist = getVinyl($i); echo $artist['artist'] . " - " . $artist['name'];?></p>
+    </div>
+
+html kodas tarp:
+?><?php
+
+<?php
+  $i = 1;
+  while($i < 5) {
+    ?><div class="vinyl">
+      <img src="vinyls/<?php $src = getImageSrc($i); echo $src['src'];?>" alt="" id="vinyl">
+      <p><?php $artist = getVinyl($i); echo $artist['artist'] . " - " . $artist['name'];?></p>
+    </div><?php
+    $i++;
+  }
+?>
+
+      <div class="vinyl">
+        <img src="vinyls/<?php
+           $src = getImageSrc(2);
+           echo $src['src'];
+          ?>" alt="" id="vinyl">
+        <p><?php $artist = getVinyl(2); echo $artist['artist'] . " - " . $artist['name'];?></p>
+      </div>
+
+
+
+vinyls.php
+  <div class="products">
+      <div class="vinyl">
+        <img src="vinyls\Anberlin-Lowborn.jpg" alt="">
+        <p>Anberlin-Lowborn</p>
+      </div>
+      <div class="vinyl">
+        <img src="vinyls/<?php
+           $src = getImageSrc(2);
+           echo $src['src'];
+          ?>" alt="" id="vinyl">
+        <p><?php $artist = getVinyl(2); echo $artist['artist'] . " - " . $artist['name'];?></p>
+      </div>
+      <!-- $artist = getVinyl(1);
+      echo $artist['artist'] . " - " . $artist['name']; -->
+      <div class="vinyl">
+        <img src="vinyls\cage_in_the_elephant-Melophobia.jpg" alt="">
+        <p>Cage in the elephant-Melophobia</p>
+      </div>
+      <div class="vinyl">
+        <img src="vinyls\cage_in_the_elephant-Melophobia.jpg" alt="">
+        <p>Cage in the elephant-Melophobia</p>
+      </div>
+      <div class="vinyl">
+        <img src="vinyls\cage_in_the_elephant-Melophobia.jpg" alt="">
+        <p>Cage in the elephant-Melophobia</p>
+      </div>
+      <div class="vinyl">
+        <img src="vinyls\Kings_Of_Leon-Walls.jpg" alt="">
+        <p>Kings Of Leon - Walls</p>
+      </div>
+    </div>
