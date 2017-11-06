@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Title</h1>
+                <nav class="mx-auto navbar">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="./index.php">Home</a></li>
+                        <li class="nav-item"><a href="./blog.php">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>

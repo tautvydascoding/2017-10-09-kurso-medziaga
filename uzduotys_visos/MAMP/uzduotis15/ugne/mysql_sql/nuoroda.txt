@@ -1,0 +1,62 @@
+MAMP/bin/mysql/bin/mysql.exe - send to desktop;
+
+SETUP:
+....exe -u root -p;
+
+pasitikrinti:
+show databases;
+
+CREATE DATABASE hospital10;
+use hospital10; //nurodyti su kuria baze dirbsim;
+
+
+CREATE TABLE doctors (
+	id INT(6) AUTO_INCREMENT PRIMARY KEY,
+	name varchar(25),
+	lname varchar(35),
+	patient_id INT(6)
+
+);
+
+show tables;
+
+INSERT INTO doctors VALUES ('', 'Tim', 'Tomson');
+INSERT INTO doctors VALUES ('', 'Paul', 'Elo');
+INSERT INTO doctors VALUES ('', 'Ona', 'Onaite');
+INSERT INTO doctors VALUES ('', 'Petras', 'Leo');
+INSERT INTO doctors VALUES ('', 'Monki', 'Martis');
+
+e kitaip )
+SELECT doctors.lname
+FROM doctors
+INNER JOIN patients ON doctors.id = patients.doctors_id
+WHERE patients.name = 'Tom';
+
+------
+
+SELECT doctors.lname FROM doctors, patients 
+WHERE doctors.id=patients.doctors_id AND patients.name = 'Tom';
+
+--------
+GROUP BY
+
+INNER JOIN patients ON
+
+
+-----------------------------
+
+CREATE TABLE users(
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+username varchar(25),
+pass varchar(255),
+email varchar(70),
+rights varchar(25)
+);
+
+CREATE TABLE articles(
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+title CHAR(255),
+content TEXT,
+date DATE,
+user_id INT(6)
+);
