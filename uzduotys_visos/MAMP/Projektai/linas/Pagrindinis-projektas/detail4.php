@@ -14,11 +14,21 @@ require './header3.php';
               <li><a href="detail3.php">Bičių duonelė</a></li>
               <li><a class="current" href="detail4.php">Pikis</a></li>
             </ul>
+            <hr class="style13">
+                    <div class="">
+                          <h6>Avilio gyventojų </h6>
+
+                          <?php include './blog.php' ?>
+                    </div>
           </div>
         </aside>
+        <?php
+                $straipsnis = getArticle(4);
+                ?>
         <section class="col-md-9">
           <article class="detail-paragraph font-2">
-            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Pikis</h2>
+            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> <?php echo $straipsnis['title']; ?></h2>
+            <?php echo $straipsnis['content']; ?>
             <p><strong>Istoriniai duomenys</strong></p>
             <p>Jau žiloje senovėje žmonės žinojo, kad bičių pikis gydo žaizdas, mažina skausmą ir tinimą, šalina blogą kvapą. Pirmieji bičių pikį gydymui pradėjo vartoti bitininkai, kurie pastebėjo, kad avilyje arba drevėje, kur gyvena bičių šeima, yra labai švaru. <br>Liaudies medicinoje bičių pikis dažniausiai vartojamas kaip išorinis, gana retai – kaip vidinis vaistas. Juo gydydavo votis, kitas pūlingas žaizdas, karpas, nuospaudas, nudegimus. Bičių pikiu aplipdyta drobe apvyniodavo skaudamus sąnarius. Nuo to skausmai sumažėdavo ar visai išnykdavo. Bičių pikiu taip pat gydydavo skrandžio opą, plaučių tuberkuliozę, tulžies pūslės ligas, paradantozę. Bičių pikis vartotas ne tik liaudies medicinoje, bet ir kitiems tikslams. Pavyzdžiui, Egipte pikį su medumi vartodavo mirusiems balzamuoti, pikio sakus – smuiko lakui, sodininkystėje – sodo tepalui gaminti.<br>Vašku, nektaru ir žiedadulkėmis, užklijuoja avilio plyšius, kad į jį nepatektų pašaliniai gyviai, pritvirtina korius. Jei vis dėlto tokie gyviai į avilį patenka, bitės juos sugelia ir apklijuoja pikiu -užbalzamuoja. Pikis bičių šeimai padeda avilyje išsaugoti švarą, apsaugo bičių šeimą nuo nuolat gresiančios išorinės infekcijos. Kai saulės spinduliai įšildo avilį, esantis avilyje bičių pikis išskiria lakiąsias eterines medžiagas, kurioms būdingos anti-mikrobinės savybės, todėl jos gerai dezinfekuoja avilį. Tai padeda bitėms apsisaugoti nuo invazinių ligų, o bitynui suteikia tam tikrą mikroklimatą.
             </p>

@@ -1,0 +1,60 @@
+// uzduotis 1:
+// A) : istrinti gydytoja "Paul"
+// B) : (po daktaro atleidimo) visu pacientu, kuriu daktaras buvo "Paul" -  daktarus pakeisti i "3"
+<<<<<<< HEAD
+// C) :  Pakeisti paciento "Paul Palauskio" varda i "Tomas"
+// D) :  visu pacientu, kurius vardas prasideda "T" -  daktarus pakeisti i "1"
+// E) :  gauti paciento "Tom" daktaro pavarde. Kai zinote TIK paciento varda!!!
+
+=======
+
+
+
+
+>>>>>>> dc61ac2e5a8165c1251247af56abc87d60a6d902
+
+
+// uzduotis 2 - KOMANDINE! ( PO 2x)
+
+// 0) sukurti DB "savaite4"
+// 1) use savaite4;  // pasirinkti lentele su kuria dirbsite
+// 2) sukurti lentele "users" su stulpeliais:
+// "id", "username", "pass", "email", "rights"
+// 2.2) sukurti pora nariu
+
+// 3) sukurti lentele "articles" su stulpeliais:
+// "id", "title", "content", "date", "user_id"
+// 3.2) sukurti pora straipsniu
+//0
+CREATE DATABASE savaite4;
+//2
+CREATE TABLE users (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+username varchar(25),
+pass varchar(255),
+email varchar(70),
+rigths varchar(25));
+//2.2
+  INSERT INTO users VALUES ('', 'Ona', 'ona123','ona@email.com','admin');
+  INSERT INTO users VALUES ('', 'Tim', 'tim123','tim@email.com','moderator');
+
+//3
+CREATE DATABASE savaite4;
+
+CREATE TABLE articles (
+id INT(6) AUTO_INCREMENT PRIMARY KEY,
+title varchar(255),
+content text,
+date DATETIME(),
+user_id INT(6));
+
+//3.2
+
+INSERT INTO articles VALUES ('', 'straipsnis1', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','NOW','1');
+
+INSERT INTO articles VALUES ('', 'straipsnis2', 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','NOW','2');
+
+INSERT INTO articles VALUES ('', 'straipsnis4', 'Ut enim is nisi ut aliquip ex ea commodo consequat.',NOW(),'4');
+
+UPDATE articles
+SET   date = NOW();

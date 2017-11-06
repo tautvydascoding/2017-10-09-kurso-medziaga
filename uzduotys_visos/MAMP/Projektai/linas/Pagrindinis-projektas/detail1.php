@@ -14,12 +14,26 @@ require './header3.php';
               <li><a href="detail3.php">Bičių duonelė</a></li>
               <li><a href="detail4.php">Pikis</a></li>
             </ul>
+            <hr class="style13">
+            <div class="">
+                  <h6>Avilio gyventojų </h6>
+
+                  <?php include './blog.php' ?>
+            </div>
           </div>
         </aside>
+
+        <?php
+
+
+        $straipsnis = getArticle(1);
+        ?>
         <section class="col-md-9">
           <article class="detail-paragraph font-2">
-            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Medus</h2>
-            <p><strong>Medaus rūšys</strong></p>
+            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> <?php echo $straipsnis['title']; ?></h2>
+            
+            <?php echo $straipsnis['content']; ?>
+            <!-- <p><strong>Medaus rūšys</strong></p>
             <p><em><strong>Liepų medus</strong></em> – šviesiai geltonas, malonaus liepų žiedų kvapo. Vartojamas gydyti peršalimo ligoms (sloga, angina, faringitas, laringitas, bronchitas), kepenų bei inkstų ligoms, pūliuojančioms žaizdoms gydyti.</p>
             <p><em><strong>Aviečių medus</strong></em> – šviesios spalvos, malonaus, bet stiproko kvapo. Vartojamas gydyti peršalimo ligoms.</p>
             <p><em><strong>Kiaulpienių medus</strong></em> – aukso spalvos, kartoko skonio, labai kvapnus. Rekomenduojamas nuo skausmo, kvėpavimo takų uždegimo, padidintam skrandžio sulčių rūgštingumui mažinti.</p>
@@ -30,13 +44,14 @@ require './header3.php';
             <p><em><strong>Pievų medus</strong></em> yra poliflorinis, t.y. surinktas iš daugelio augalų žiedų, malonaus skonio, geltonas arba gelsvai rusvos spalvos. Jame yra daug aromatinių medžiagų, nemažai B grupės ir C vitaminų. Jis vertingas nusilpusiems ir peršalimo ligoms gydyti.</p>
             <p><em><strong>Lipčiaus medus</strong></em>, surinktas iš amarų išskyrų, skiriasi nuo žiedų medaus. Jame daugiau dekstrinų, mineralinių medžiagų, sacharozės, mažiau invertuoto cukraus, negu nektaro meduje. Ypač daug lipčiuje yra šarminių metalų – kalio ir natrio druskų.<br/>
               Kadangi lipčiaus meduje mažiau vandens ir daugiau baltymų, dekstrinų, jis 2-3 kartus tirštesnis už žiedų medų. Bičiųžiemos maistui lipčiaus medus netinka, o žmogui jis labai naudingas.</p>
-              <p>Sveikatai stiprinti reikia naudoti tik natūralų kokybišką medų. Patartina suvartoti 50 -100 g medaus per parą ,šį kiekį suvalgant per 3 -4 kartus.Geriausia medų ištirpinti šiltame virintame vandenyje, tuomet organizmas lengviau jį įsisavina.</p>
+              <p>Sveikatai stiprinti reikia naudoti tik natūralų kokybišką medų. Patartina suvartoti 50 -100 g medaus per parą ,šį kiekį suvalgant per 3 -4 kartus.Geriausia medų ištirpinti šiltame virintame vandenyje, tuomet organizmas lengviau jį įsisavina.</p> -->
 
           </article>
 
         </section>
 
       </main>
+
 
       <?php
 

@@ -14,12 +14,23 @@ require './header3.php';
               <li><a class="current" href="detail3.php">Bičių duonelė</a></li>
               <li><a href="detail4.php">Pikis</a></li>
             </ul>
+            <hr class="style13">
+                    <div class="">
+                          <h6>Avilio gyventojų </h6>
+
+                          <?php include './blog.php' ?>
+                    </div>
           </div>
         </aside>
+        <?php
+
+                $straipsnis = getArticle(3);
+                ?>
         <section class="col-md-9">
           <article class="detail-paragraph font-2">
-            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i> Bičių duonelė</h2>
-            <p><strong>Bičių duonelė</strong>– žiedadulkės bičių suneštos iš įvairiausių augalų sudėtos į korio akutę ir subrandintos.</p>
+            <h2 class="font-1"><i class="fa fa-book" aria-hidden="true"></i>Bičių duonelė</h2>
+            <?php echo $straipsnis['content']; ?>
+            <!-- <p><strong>Bičių duonelė</strong>– žiedadulkės bičių suneštos iš įvairiausių augalų sudėtos į korio akutę ir subrandintos.</p>
             <p>Bitės neša į avilius ir meta į korių akeles. Aviliuose jaunesnės bitės priekiniais žandais žiedadulkių rutulėlius sutrupina ir galvomis gerai suspaudžia. Taip bitės dirba, kol žiedadulkėmis užlipdo du trečdalius akutės tūrio. Į tą pačią akutę dėdamos įvairių augalų žiedadulkes, bitės jų nerūšiuoja. Kai akutės pripildomos, bitės jų viršų užpila medumi, užlipdo vašku – tokį mišinį palieka subręsti.
             </p>
             <p>Veikiant įvairiems mikroorganizmams, fermentams, esant didelei drėgmei ir šilumai (34–36 °C), maždaug per dvi savaites iš mišinio susiformuoja bičių duonelė. Bitėms tai – pagrindinis baltymų, riebalų, angliavandenių, mikroelementų ir vitaminų šaltinis.</p>
@@ -30,7 +41,7 @@ require './header3.php';
             <br>Pastarųjų metų tyrimai parodė, kad bičių duonelė, skirtingai nuo medikamentų, neturi nepageidaujamo ar toksinio poveikio. Joje esantis mažas vitamino E ir estrogenų kiekis suteikia galimybę ją profilaktiškai vartoti įvairaus amžiaus žmonėms ir net vaikams. Alergijos atvejai bičių duonelei labai reti.
             <br>Bičių duonelė rekomenduojama asmenims, sergantiems mažakraujyste, hepatitu, cukriniu diabetu, virškinamojo trakto, ypač žarnyno (fermentiniai kolitai, enterokolitai, lėtiniai vidurių užkietėjimai) ligomis. K.Valiukienės ir bendraautorių atlikti tyrimai parodė, kad bičių duonelė gerina pagyvenusio amžiaus žmonių sveikatą, mažina cholesterolio kiekį kraujyje. Neseniai atlikti tyrimai įrodė, kad bičių duonelė sergantiems vyresnio amžiaus asmenims cukriniu diabetu ne tik sumažino cholesterolio kiekį kraujyje, bet ir sustiprino šių ligonių imuninę sistemą.
             <br>Bičių duonelę profilaktiškai rekomenduojama vartoti po 10-15 g per dieną, o gydymo tikslais – po 20-30 g per dieną.
-            </p>
+            </p> -->
 
           </article>
 
