@@ -317,10 +317,6 @@ max-height: 38px;
 
 /*========gallery css==========*/
 
-.position-fixed {
-    position: fixed;
-}
-
 .position-absolute {
     position: relative;
 }
@@ -331,10 +327,6 @@ max-height: 38px;
 
 .viewportas100 {
     height: 100vh;
-}
-
-.straipsnis {
-
 }
 
 img {
@@ -353,17 +345,13 @@ img {
     position: relative;
 }
 
-/*.inputas {
-    margin-bottom: 4px;
-}*/
-
-/*.nulis-padding {
-    padding: 0;
-}*/
-
-/*.slepti-overflow {
-    overflow: hidden;
-}*/
+.fixed {
+    position: fixed;
+    top:0;
+    width:50vw;
+    padding-top:5vh;
+    transition:0.3;
+}
 
 
 /*================card-slider css===============*/
@@ -396,14 +384,4 @@ img {
 /* control image height */
 .card-img-top-250 {
     max-height: 200px;
-}
-
-
-
-.fixed {
-    position: fixed;
-    top:0;
-    width:50vw;
-    padding-top:5vh;
-    transition:0.3;
 }
