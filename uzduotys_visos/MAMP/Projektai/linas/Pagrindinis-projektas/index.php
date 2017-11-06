@@ -27,7 +27,7 @@ require './header2.php';
      <span class="sr-only">Next</span>
    </a>
     </div>
-    
+
     <div class="important-text mr-50 font-1">
       <h3>Auksčiausios kokybės medus</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
@@ -41,7 +41,7 @@ require './header2.php';
           <div class="card-body">
             <h4 class="card-title">Medus</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="./detail1.php" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -51,22 +51,23 @@ require './header2.php';
           <div class="card-body">
             <h4 class="card-title">Pikis</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="./detail4.php" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col d-flex justify-content-center mr-50">
         <div class="card" style="width: 20rem;">
-          <img class="card-img-top" src="./img/propolis.jpg" alt="Card image cap">
+          <img class="card-img-top" src="./img/duonele2.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title">Bičių duonelė</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="./detail3.php" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
 
     </div>
+
     <!-- footer -->
     <?php
 

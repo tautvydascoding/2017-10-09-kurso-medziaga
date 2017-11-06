@@ -50,8 +50,8 @@ body {
 }
 .current {
   font-weight: bold;
-
 }
+
 
 .detail-paragraph {  /* Detail.html "Produktai"*/
   margin-left: 100px;
@@ -61,7 +61,7 @@ body {
   color: rgba(236, 221, 10, 0.88);
 }
 .navbar-light .navbar-nav .active > .nav-link {
-  color: rgba(236, 221, 10, 0.99);
+  color: rgba(246, 255, 9, 0.99);
 }
 
 
@@ -129,6 +129,9 @@ background-color: #92bdc7;
 .mr-left-25 {
   margin-left: 25%; /* 4korteles apie biciu produkcija */
 }
+
+
+
 @media (max-width: 767px){
   .detail-paragraph{
     margin-left: 20px;

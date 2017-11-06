@@ -2,16 +2,16 @@
 
 print_r( $_GET );
 
-$pasteliukas = $_GET['pasteliukas'];
-$anterastuke = $_GET['antrastuke'];
-$klausims = $_GET['klausymukas'];
+$klientoVardas = $_GET['name'];
+$klientoElPastas = $_GET['email'];
+$klientoKlausimas = $_GET['message'];
 "<br />" ;
-echo $pasteliukas . "<br />" ;
-echo $anterastuke . "<br />" ;
-echo $klausims . "<br />" ;
+echo $klientoVardas  . "<br />" ;
+echo $klientoElPastas . "<br />" ;
+echo $klientoKlausimas . "<br />" ;
 
 //Load composer's autoloader
-require './PHPMailer-master 2/PHPMailer-master/PHPMailerAutoload.php';
+require './PHPMailer-master/PHPMailerAutoload.php';
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
@@ -20,16 +20,16 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'testukas.patestuks@gmail.com';                 // SMTP username
-    $mail->Password = 'testaspatestas';                           // SMTP password
+    $mail->Username = 'debilas3999@gmail.com';                    // SMTP username
+    $mail->Password = 'debilas123';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom($pasteliukas , 'hiltis acb');
-    $mail->addAddress('tastukas.patestuks@gmail.com', 'pro grameris');     // Add a recipient
+    $mail->setFrom($klientoElPastas, 'Klientas');
+    $mail->addAddress('debilas3999@gmail.com', 'Puslapio kurejas');    // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo($pasteliukas, 'Information');
+    $mail->addReplyTo($klientoElPastas, 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
@@ -39,15 +39,16 @@ try {
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = $anterastuke;
-    $mail->Body    = $klausims;
-    $mail->AltBody = $klausims;
+    $mail->Subject = $klientoElPastas;
+    $mail->Body    = $klientoKlausimas;
+    $mail->AltBody = $klientoKlausimas;
 
-    $mail->send();
-    header("Location: succes.php");
+    // $mail->send();
+    header("Location: index.php");
 } catch (Exception $e) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    // echo 'Message could not be sent.';
+    // echo 'Mailer Error: ' . $mail->ErrorInfo;
+    header("Location: index.php");
 }
 
 

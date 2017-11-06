@@ -52,6 +52,7 @@ require './header4.php';
           <button type="submit" class="btn btn-outline-primary form-control bg3">Išsiųsti pranešimą</button>
         </div>
         </form>
+    
       </div>
       <div class="col-md-3">
       </div>

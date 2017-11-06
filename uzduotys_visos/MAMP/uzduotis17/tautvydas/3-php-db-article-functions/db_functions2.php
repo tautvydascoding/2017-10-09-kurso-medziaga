@@ -220,7 +220,7 @@ function getArticles() {
         return NULL;
     }
 }
-$visiStraipsniai =getArticles();
+$visiStraipsniai = getArticles();
 if ($visiStraipsniai != NULL) {
     $straipsnis = mysqli_fetch_assoc($visiStraipsniai);
     while ($straipsnis ) {

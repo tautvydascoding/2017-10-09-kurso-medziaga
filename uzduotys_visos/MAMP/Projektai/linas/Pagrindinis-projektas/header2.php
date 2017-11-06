@@ -2,6 +2,10 @@
 <html>
 
 <head>
+  <?php
+  include("./DB_Function.php");
+
+  ?>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -35,8 +39,8 @@
           <a class="nav-link font-footer" href="contact.php">Kontaktai</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <form class="form-inline my-2 my-lg-0" action="search.php" method="get">
+        <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>

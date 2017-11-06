@@ -16,7 +16,9 @@ require './header3.php';
           <img class="threed" src="./img/medus.jpg" alt="medus">
           </a>
           <h5 class="d-flex justify-content-center font-1 mr-20 "> <a class="font-1" href="detail1.php">Medus</a></h5>
+
           <p class="w-50 mr-left-25 font-2">Ar žinojai, kad vakare išgertas medaus tirpalas pagerina miegą, kad medumi galima numalšinti rėmenį?</p>
+
         </div>
         <div class="col-md-6 mr-50">
           <a class="d-flex justify-content-center" href="detail2.php">

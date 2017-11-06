@@ -1,0 +1,37 @@
+.add-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height: 100vh;
+}
+
+.add-new-form {
+    width:80%;
+    max-width: 500px;
+}
+
+.add-new-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-new-form select {
+    background-color: #fff;
+}
+
+.add-new-form h3 {
+    font-family: 'Lato', sans-serif;
+    font-size:2rem;
+    font-weight: 300;
+    letter-spacing: 0.07em;
+    margin-top:1.5rem;
+    margin-bottom:0.8rem;
+    color: #555;
+    width:100%;
+    text-align: center;
+}
+
+.form-group.w50 {
+    width:50%;
+}
