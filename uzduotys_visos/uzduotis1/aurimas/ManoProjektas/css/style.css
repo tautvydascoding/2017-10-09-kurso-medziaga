@@ -341,8 +341,6 @@ max-height: 38px;
     justify-content: center;
     flex-wrap: wrap;
     width: 50%;
-    /*top: 50%;
-    transform: translateY(-50%);*/
 }
 
 .straipsnis p, .straipsnis h4 {
@@ -356,10 +354,6 @@ max-height: 38px;
 .nulis-padding {
     padding: 0;
 }
-
-/*.slepti-overflow {
-    overflow: scroll;
-}*/
 
 /*================card-slider css===============*/
 
@@ -392,3 +386,5 @@ max-height: 38px;
 .card-img-top-250 {
     max-height: 200px;
 }
+
+/*==================================MEDIA QUERY===========================================*/

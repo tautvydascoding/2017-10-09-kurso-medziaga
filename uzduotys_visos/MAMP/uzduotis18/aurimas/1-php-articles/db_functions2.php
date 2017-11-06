@@ -164,13 +164,6 @@ function createArticle($title, $content, $user_id ) {
     $content = mysqli_real_escape_string(getConnection(), $content);
     $user_id = mysqli_real_escape_string(getConnection(), $user_id);
 
-    // $sql_tekstas = "INSERT INTO articles VALUES(
-    //                     '',
-    //                     '$title',
-    //                     '$content',
-    //                     NOW(),
-    //                     '$user_id'
-    //                 )"; // tekstas
     $sql_tekstas = sprintf("INSERT INTO articles
                             VALUES( '', '%s', '%s', NOW(), '%s' )",
                                     $title,

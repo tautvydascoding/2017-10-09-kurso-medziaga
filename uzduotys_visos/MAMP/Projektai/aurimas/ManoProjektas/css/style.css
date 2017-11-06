@@ -1,0 +1,576 @@
+body {
+    background-color: #1B1B1B;
+    height: 100%;
+}
+
+/*==========================Header===============================*/
+ul {
+    padding: 30px 0;
+}
+
+nav a {
+    color: #717171;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+a:hover {
+    color: #F6F2FF;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.4;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+/*==========================Main=================================*/
+h1 {
+    /*position: absolute;
+    bottom: 45%;
+    right: 34%;*/
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.karusele img, video {
+    padding: 0;
+    position: relative;
+    max-height: 80vh;
+}
+
+.karuseles-mygtukai {
+    max-height: 70%;
+}
+
+.karuseles-ikonos {
+    margin-top: 200px;
+}
+
+aside img {
+    max-height: 25px;
+    margin: 20px;
+}
+
+.nuorodos {
+    margin-top: 210px;
+}
+
+h6 {
+    background-color: hsla(47, 60%, 92%, 0.7);
+    color: #717171;
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
+}
+
+main {
+    margin-top: 90px;
+}
+
+.krastovaizdis-tekstas span, .krastovaizdis-tekstas p {
+    color: #191919;
+}
+
+.krastovaizdis-tekstas {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.korta p {
+    font-size: 13px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+}
+
+.korta h4 {
+    font-size: 16px;
+    padding: 5px 0px 0px 5px;
+}
+
+.kortu-footer p {
+    color: #1B1B1B;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.kortu-footer {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.vartotojo-inputas, .formos-kontrole {
+    margin-bottom: 10px;
+}
+
+#eile-video iframe {
+    max-width: 72%;
+    padding-bottom: 7%;
+}
+
+.video-container {
+position:relative;
+padding-bottom: 45%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.video-container iframe{
+position:absolute;
+top:0;
+left:14%;
+width:100%;
+height:100%;
+}
+
+#eile-ikelti-istorija {
+    padding: 0;
+    padding-left: 2%;
+}
+
+#eile-lankytinos-vietos img
+{
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 15%;
+}
+
+#eile-lankytinos-vietos article {
+    padding-right: 19%;
+}
+
+#eile-karusele {
+    margin-bottom: 7%;
+}
+
+#eile-istorija {
+    margin-bottom: 4%;
+}
+
+#eile-istorija p {
+    padding-right: 10%;
+}
+
+#istorija-isplesta p {
+    padding-bottom: 160px;
+}
+
+#eile-zemelapis iframe {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    margin-top: 5%
+}
+
+#eile-lankytoju-patirtis {
+    padding: 2% 2% 2% 2%;
+}
+
+#eile-lankytoju-patirtis-header h2 {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#eile-video, #eile-lankytinos-vietos, #eile-zemelapis {
+    background-color: #FFFFFF;
+}
+
+#logo {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ikelimo-forma {
+    min-height: 50vh;
+}
+
+#eile-lankytoju-patirtis-header h4, nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.pagrindinis-pavadinimas h3 {
+    /*position: absolute;
+    bottom: 40%;
+    right: 45%;*/
+    font-size: 1.0rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.lankytinos-vietos a {
+    color: #F6F2FF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footeris h4 {
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+#mygtukas-upload {
+    color: #1B1B1B;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+#patirtis-isplesta img {
+    width: 100%;
+}
+
+.modal-lg {
+    max-width: 992px;
+}
+
+#eile-lankytoju-patirtis-responsive {
+    display: none;
+}
+
+/*==========================Footer===============================*/
+footer img {
+    opacity: 0.1;
+    min-width: 100%;
+    max-height: 200px;
+}
+
+.footeris a {
+    display: inline-block;
+}
+
+
+.idealus-centravimas {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.pilnas-plotis {
+    width: 100%;
+}
+
+.juodas-fonas {
+    background-color: #1B1B1B;
+}
+
+.baltas-fontas {
+    color: #F6F2FF;
+}
+
+.antrasciu-tekstas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.pagrindinis-tekstas {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.margin-sides-15px {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*======KONTAKTAI, PRISIDETI, DAUGIAU INFO, CSS============*/
+
+#kontaktai-main button {
+max-height: 38px;
+}
+
+#kontaktai-main img {
+    height: 25px;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+#kontaktai-main form {
+    width: 25%;
+}
+
+#kontaktu-antraste h3 {
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+#kontaktai-body, #prisideti-body, #daugiau-info-body {
+    max-height: 100vh;
+}
+
+#daugiau-info-main {
+    min-height: 100%;
+}
+
+.kontaktai-ul, .prisideti-ul, .daugiau-info-ul {
+    margin-left: 0;
+}
+
+#daugiau-info-html {
+    min-height: 100%;
+}
+
+#daugiau-info-main p, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+#daugiau-info-main p {
+    margin-bottom: 39px;
+}
+
+#daugiau-info-main div {
+    padding-top: 100px;
+    padding-bottom: 22px;
+}
+
+#eile-prisideti p {
+    margin-top: 5rem;
+    width: 50%;
+}
+
+#eile-prisideti div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eile-footer img {
+    overflow: hidden;
+}
+
+/*========gallery css==========*/
+
+#gallery-body {
+    background-color: #FFFFFF;
+}
+
+.article-div {
+    width: 75%;
+}
+
+.viewportas100 {
+    min-height: 100vh;
+}
+
+.straipsnis {
+    position: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.straipsnis p, .straipsnis h4 {
+    width:100%;
+}
+
+.inputas {
+    margin-bottom: 4px;
+}
+
+.nulis-padding {
+    padding: 0;
+}
+
+/*.col-straipsnis {
+    display: flex;
+
+    justify-content: center;
+}*/
+
+
+/*================card-slider css===============*/
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+/*.card-img-top-250 {
+    max-height: 200px;
+}*/
+
+.col-korta {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#eile-lankytoju-patirtis-responsive .card-block {
+    padding-left: 13%;
+    padding-right: 10%;
+}
+
+/*================================media queries==============================================*/
+
+@media screen and (max-width: 767px) {
+    aside {
+        display: none;
+    }
+
+    #eile-lankytinos-vietos img {
+        width: auto;
+        position: relative;
+        transform: none;
+        left: 0;
+        top: 0;
+    }
+
+    h1 {
+    font-size: 2.0rem;
+}
+
+    .pagrindinis-pavadinimas h3 {
+        font-size: 0.5rem;
+    }
+
+    nav ul {
+        position: relative !important;
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    #istorija-isplesta p {
+        padding-bottom: 10px;
+    }
+
+    .krastovaizdis-tekstas {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    #eile-video iframe {
+    max-width: 100%;
+}
+
+.video-container iframe {
+    left: 0%;
+}
+
+#eile-lankytinos-vietos article {
+    padding-right: 16%;
+    padding-left: 16%;
+}
+
+#eile-lankytoju-patirtis-responsive {
+    display: flex;
+}
+
+#eile-lankytoju-patirtis {
+    display: none;
+}
+
+.mygtukai-prev-next{
+    margin-bottom: 13px;
+    margin-top: -43px;
+}
+
+#mygtukas-upload {
+    margin-top: 23px;
+    margin-right: 15px;
+}
+
+#kontaktai-main form {
+    width: 90%;
+}
+
+#kontaktu-antraste h3 {
+    margin-top: 0;
+}
+
+#daugiau-info-main div {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+#eile-prisideti p {
+    margin-top: 2.0rem;
+    width: 80%;
+    font-size: 12px;
+}
+
+.straipsnis {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.article-div {
+    width: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footeris h4 {
+    padding: 0 10px;
+}
+}
+
+@media screen and (max-width: 978px) {
+         footer div {
+                width: 64%;
+          }
+    }
+
+@media screen and (max-width: 484px) {
+         footer div {
+                width: 40%;
+          }
+    }
